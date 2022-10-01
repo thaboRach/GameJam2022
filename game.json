@@ -95,6 +95,24 @@
           "identifier": "https://resources.gdevelop-app.com/assets/FoozleCC/Void Collection/Environment Pack/Backgrounds/tiled_Starry Background Stars 2.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewRocket-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewRocket-1-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewRocket-1-6-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewRocket-1-6-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
