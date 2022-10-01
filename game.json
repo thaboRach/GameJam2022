@@ -95,6 +95,24 @@
           "identifier": "https://resources.gdevelop-app.com/assets/FoozleCC/Void Collection/Environment Pack/Backgrounds/tiled_Starry Background Stars 2.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-presenter-2183764.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-presenter-2183764.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-public-speaking-2146371.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-public-speaking-2146371.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
