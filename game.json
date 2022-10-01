@@ -113,6 +113,15 @@
         "name": "noun-public-speaking-2146371.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "certificate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "certificate.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
