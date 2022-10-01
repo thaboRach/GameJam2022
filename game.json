@@ -122,6 +122,15 @@
         "name": "certificate.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BBDRocket-33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BBDRocket-33.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
