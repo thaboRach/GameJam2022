@@ -62,8 +62,8 @@
       "name": "Stars1",
       "persistentUuid": "0c52874b-0fd0-46c4-bb18-3a245fcd2a03",
       "width": 0,
-      "x": 277,
-      "y": 222,
+      "x": 278,
+      "y": 223,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -95,6 +95,21 @@
       "x": 546,
       "y": 441,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90.31830596923828,
+      "customSize": true,
+      "height": 174.87564086914062,
+      "layer": "",
+      "name": "ROCKET_1",
+      "persistentUuid": "1b788f31-d921-45d6-b3b1-15a020900f1a",
+      "width": 197.44024658203125,
+      "x": -1.7050299644470215,
+      "y": 189.35781860351562,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -199,6 +214,47 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "certificate.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "ROCKET_1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "BBDRocket-33.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
