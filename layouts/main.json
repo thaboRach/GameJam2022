@@ -100,15 +100,15 @@
       "initialVariables": []
     },
     {
-      "angle": 90.31830596923828,
+      "angle": 0,
       "customSize": true,
       "height": 174.87564086914062,
       "layer": "",
       "name": "ROCKET_1",
       "persistentUuid": "1b788f31-d921-45d6-b3b1-15a020900f1a",
       "width": 197.44024658203125,
-      "x": -1.7050299644470215,
-      "y": 189.35781860351562,
+      "x": 414.0338439941406,
+      "y": 449.35845947265625,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -258,6 +258,47 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
+                    "x": 403.09747314453125,
+                    "y": 110.30323791503906
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Bullet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite5-1-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
                     "x": 0,
                     "y": 0
                   },
@@ -276,7 +317,63 @@
       ]
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Bullet",
+            "ROCKET_1.X() - 30",
+            "ROCKET_1.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Bullet",
+            "ROCKET_1.Angle() + 270",
+            "350",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Bullet",
+            "=",
+            "ROCKET_1.ZOrder() - 1"
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 0,
