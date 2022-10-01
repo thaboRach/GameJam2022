@@ -1,0 +1,167 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Main",
+  "name": "Main",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 600,
+      "layer": "",
+      "name": "Space",
+      "persistentUuid": "300a3ea7-1c61-4a53-959a-478964287fb5",
+      "width": 800,
+      "x": 1,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Stars2",
+      "persistentUuid": "261195ba-4013-48b5-a3d0-058d262b7e31",
+      "width": 0,
+      "x": 505,
+      "y": 104,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Stars1",
+      "persistentUuid": "0c52874b-0fd0-46c4-bb18-3a245fcd2a03",
+      "width": 0,
+      "x": 277,
+      "y": 222,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Stars2",
+      "persistentUuid": "2dd8e8f9-4e61-4470-8827-a1661f9305aa",
+      "width": 0,
+      "x": 98,
+      "y": 77,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Stars2",
+      "persistentUuid": "83e1653a-4dc0-44a0-94cb-3a89376aa02b",
+      "width": 0,
+      "x": 546,
+      "y": 441,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 128,
+      "name": "Space",
+      "tags": "",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "dbf6678e38db57bb0f0a83a0c9a516b206a0f47877a21e56ff9e114b8329a778",
+      "height": 128,
+      "name": "Stars1",
+      "tags": "",
+      "texture": "tiled_Starry Background Stars 1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "c20fe4657b50f46f901b666ddae13412211ef388c101136bacecd5bee34520b4",
+      "height": 128,
+      "name": "Stars2",
+      "tags": "",
+      "texture": "tiled_Starry Background Stars 2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "events": [],
+  "layers": [
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 7893896,
+      "ambientLightColorR": 16,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": []
+}
