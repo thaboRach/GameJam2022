@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1,
+    "zoomFactor": 0.24420898514445757,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,13 +27,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 600,
+      "height": 1200,
       "layer": "",
       "name": "Space",
       "persistentUuid": "300a3ea7-1c61-4a53-959a-478964287fb5",
-      "width": 800,
-      "x": 1,
-      "y": 0,
+      "width": 1600,
+      "x": -800,
+      "y": -600,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -47,8 +47,8 @@
       "name": "Stars2",
       "persistentUuid": "261195ba-4013-48b5-a3d0-058d262b7e31",
       "width": 0,
-      "x": 505,
-      "y": 104,
+      "x": -111,
+      "y": -267,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -62,9 +62,9 @@
       "name": "Stars1",
       "persistentUuid": "0c52874b-0fd0-46c4-bb18-3a245fcd2a03",
       "width": 0,
-      "x": 278,
-      "y": 223,
-      "zOrder": 3,
+      "x": -363,
+      "y": 150,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -77,9 +77,9 @@
       "name": "Stars2",
       "persistentUuid": "2dd8e8f9-4e61-4470-8827-a1661f9305aa",
       "width": 0,
-      "x": 98,
-      "y": 77,
-      "zOrder": 4,
+      "x": -707,
+      "y": -323,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -92,9 +92,9 @@
       "name": "Stars2",
       "persistentUuid": "83e1653a-4dc0-44a0-94cb-3a89376aa02b",
       "width": 0,
-      "x": 546,
-      "y": 441,
-      "zOrder": 5,
+      "x": 266,
+      "y": 257,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -102,13 +102,43 @@
     {
       "angle": 0,
       "customSize": true,
+      "height": 131,
+      "layer": "",
+      "name": "TheHive",
+      "persistentUuid": "34e8f51f-b196-48a9-a5fd-99aefa6b4a5c",
+      "width": 140,
+      "x": -409,
+      "y": -190,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 50,
+      "layer": "",
+      "name": "HealthBar",
+      "persistentUuid": "b060f3d3-4975-4db1-8c74-1d7423af506b",
+      "width": 314,
+      "x": -775,
+      "y": -584,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 358.33856201171875,
+      "customSize": true,
       "height": 174.87564086914062,
       "layer": "",
       "name": "ROCKET_1",
       "persistentUuid": "1b788f31-d921-45d6-b3b1-15a020900f1a",
       "width": 197.44024658203125,
-      "x": 414.0338439941406,
-      "y": 449.35845947265625,
+      "x": -200.3457794189453,
+      "y": 436.8666687011719,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -245,12 +275,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "BBDRocket-33",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
@@ -258,14 +288,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 403.09747314453125,
-                    "y": 110.30323791503906
+                    "x": 404.3977966308594,
+                    "y": 170.11770629882812
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 400.4968566894531,
+                    "y": 176.61927795410156
                   },
                   "customCollisionMask": []
                 }
@@ -315,63 +345,231 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TheHive",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\The Hive.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 183.64779663085938,
+                        "y": 248.7421417236328
+                      },
+                      {
+                        "x": 503.1446533203125,
+                        "y": 0.9433962106704712
+                      },
+                      {
+                        "x": 601.2578735351562,
+                        "y": 53.77358627319336
+                      },
+                      {
+                        "x": 578.6163330078125,
+                        "y": 373.27044677734375
+                      },
+                      {
+                        "x": 545.9119262695312,
+                        "y": 638.6792602539062
+                      },
+                      {
+                        "x": 192.4528350830078,
+                        "y": 631.132080078125
+                      },
+                      {
+                        "x": 139.6226348876953,
+                        "y": 373.27044677734375
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 50,
+      "name": "HealthBar",
+      "tags": "",
+      "texture": "assets\\Health.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 50,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Scene",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "KeyReleased"
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
           },
-          "parameters": [
-            "",
-            "Space"
-          ]
+          "comment": "Scene Start",
+          "comment2": ""
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "0.5",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
-      "actions": [
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Player",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "Create"
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
           },
-          "parameters": [
-            "",
-            "Bullet",
-            "ROCKET_1.X() - 30",
-            "ROCKET_1.Y()",
-            ""
-          ]
+          "comment": "Shooting",
+          "comment2": ""
         },
         {
-          "type": {
-            "value": "AddForceAL"
-          },
-          "parameters": [
-            "Bullet",
-            "ROCKET_1.Angle() + 270",
-            "350",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "Bullet",
-            "=",
-            "ROCKET_1.ZOrder() - 1"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Bullet",
+                "ROCKET_1.X()-30",
+                "ROCKET_1.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Bullet",
+                "ROCKET_1.Angle()+270",
+                "350",
+                "1"
+              ]
+            }
           ]
         }
-      ]
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -395,6 +593,17 @@
           "width": 0
         }
       ],
+      "effects": []
+    },
+    {
+      "ambientLightColorB": 7097008,
+      "ambientLightColorG": 6046000,
+      "ambientLightColorR": 7602144,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "name": "Game",
+      "visibility": true,
+      "cameras": [],
       "effects": []
     }
   ],

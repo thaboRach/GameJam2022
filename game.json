@@ -140,6 +140,33 @@
         "name": "NewSprite5-1-1-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Desktop/The Hive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Desktop\\The Hive.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/The Hive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\The Hive.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Health.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
