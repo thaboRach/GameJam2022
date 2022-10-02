@@ -143,30 +143,69 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "../../../Desktop/The Hive.png",
+        "file": "assets/ExplosionTexture1.png",
         "kind": "image",
         "metadata": "",
-        "name": "..\\..\\..\\Desktop\\The Hive.png",
+        "name": "ExplosionTexture1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Particles/ExplosionTexture1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ExplosionFog-Texture-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ExplosionFog-Texture-2.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Particles/ExplosionFog-Texture-2.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lightning-Texture-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lightning-Texture-1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/Particles/Lightning-Texture-1.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-public-speaking-21463712.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-public-speaking-21463712.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/The Hive.png",
+        "file": "noun-presenter-21837642.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\The Hive.png",
+        "name": "noun-presenter-21837642.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Health.png",
+        "file": "noun-presenter-21837642-1.png",
         "kind": "image",
         "metadata": "",
-        "name": "assets\\Health.png",
+        "name": "noun-presenter-21837642-1.png",
         "smoothed": true,
-        "userAdded": false
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -181,7 +220,12 @@
     }
   ],
   "externalEvents": [],
-  "eventsFunctionsExtensions": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/screenwrap"
+    }
+  ],
   "externalLayouts": [],
   "externalSourceFiles": []
 }
