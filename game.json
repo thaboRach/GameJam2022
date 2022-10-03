@@ -206,6 +206,46 @@
         "name": "noun-presenter-21837642-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Laser Gun Sound Effect.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Laser Gun Sound Effect.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Muffled Explosion Sound Effect.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Muffled Explosion Sound Effect.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Muffled Explosion Sound Effect2.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Muffled Explosion Sound Effect2.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Muffled Explosion Sound Effect3.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Muffled Explosion Sound Effect3.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

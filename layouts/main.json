@@ -721,6 +721,18 @@
             "ROCKET_1",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Muffled Explosion Sound Effect.wav",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -839,6 +851,18 @@
             "Aws",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Muffled Explosion Sound Effect.wav",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -887,6 +911,18 @@
           "parameters": [
             "Bullet",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Muffled Explosion Sound Effect.wav",
+            "",
+            "100",
+            "1"
           ]
         }
       ]
@@ -937,6 +973,18 @@
             "Aws",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Muffled Explosion Sound Effect.wav",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -986,6 +1034,18 @@
             "podium2",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Muffled Explosion Sound Effect.wav",
+            "",
+            "100",
+            "1"
+          ]
         }
       ]
     },
@@ -1034,6 +1094,52 @@
           "parameters": [
             "ROCKET_1",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Muffled Explosion Sound Effect.wav",
+            "",
+            "100",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Laser Gun Sound Effect.wav",
+            "",
+            "100",
+            "35"
           ]
         }
       ]
