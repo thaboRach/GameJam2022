@@ -255,6 +255,33 @@
         "name": "noun-collaboration-2909353-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/The Hive.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\The Hive.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Health.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Health-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Health-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -270,6 +297,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/screenwrap"
