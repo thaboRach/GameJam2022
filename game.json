@@ -246,6 +246,15 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-collaboration-2909353-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-collaboration-2909353-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
