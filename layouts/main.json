@@ -528,7 +528,7 @@
           "name": "LinearMovement",
           "type": "LinearMovement::LinearMovement",
           "SpeedX": 0,
-          "SpeedY": -150
+          "SpeedY": -50
         },
         {
           "name": "StayOnScreen",
@@ -539,6 +539,8 @@
           "MarginRight": 20
         },
         {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "acceleration": 400,
           "allowDiagonals": false,
           "angleOffset": 0,
@@ -548,9 +550,7 @@
           "ignoreDefaultControls": false,
           "maxSpeed": 200,
           "movementAngleOffset": 0,
-          "name": "TopDownMovement",
           "rotateObject": false,
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
           "viewpoint": "TopDown"
         }
       ],
@@ -1206,7 +1206,9 @@
               "type": {
                 "value": "DepartScene"
               },
-              "parameters": [""]
+              "parameters": [
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1224,7 +1226,9 @@
               "type": {
                 "value": "Cache"
               },
-              "parameters": ["GameOver"]
+              "parameters": [
+                "GameOver"
+              ]
             }
           ]
         },
@@ -1249,61 +1253,106 @@
               "type": {
                 "value": "AddForceAL"
               },
-              "parameters": ["podium", "120", "75", ""]
+              "parameters": [
+                "podium",
+                "120",
+                "75",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Rotate"
               },
-              "parameters": ["podium", "15", ""]
+              "parameters": [
+                "podium",
+                "15",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AddForceAL"
               },
-              "parameters": ["Aws", "240", "75", ""]
+              "parameters": [
+                "Aws",
+                "240",
+                "75",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Rotate"
               },
-              "parameters": ["Aws", "15", ""]
+              "parameters": [
+                "Aws",
+                "15",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AddForceAL"
               },
-              "parameters": ["podium2", "210", "75", ""]
+              "parameters": [
+                "podium2",
+                "210",
+                "75",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Rotate"
               },
-              "parameters": ["podium", "15", ""]
+              "parameters": [
+                "podium",
+                "15",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AddForceAL"
               },
-              "parameters": ["TheHive", "210", "75", ""]
+              "parameters": [
+                "TheHive",
+                "210",
+                "75",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Rotate"
               },
-              "parameters": ["TheHive", "15", ""]
+              "parameters": [
+                "TheHive",
+                "15",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AddForceAL"
               },
-              "parameters": ["Collaboration_OR_Team_Work", "210", "75", ""]
+              "parameters": [
+                "Collaboration_OR_Team_Work",
+                "210",
+                "75",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Rotate"
               },
-              "parameters": ["Collaboration_OR_Team_Work", "15", ""]
+              "parameters": [
+                "Collaboration_OR_Team_Work",
+                "15",
+                ""
+              ]
             }
           ]
         }
@@ -1339,7 +1388,10 @@
               "type": {
                 "value": "KeyReleased"
               },
-              "parameters": ["", "Space"]
+              "parameters": [
+                "",
+                "Space"
+              ]
             },
             {
               "type": {
@@ -1365,13 +1417,22 @@
               "type": {
                 "value": "AddForceAL"
               },
-              "parameters": ["Bullet", "ROCKET_1.Angle() + 270", "350", "1"]
+              "parameters": [
+                "Bullet",
+                "ROCKET_1.Angle() + 270",
+                "350",
+                "1"
+              ]
             },
             {
               "type": {
                 "value": "ChangePlan"
               },
-              "parameters": ["Bullet", "=", "ROCKET_1.ZOrder() - 1"]
+              "parameters": [
+                "Bullet",
+                "=",
+                "ROCKET_1.ZOrder() - 1"
+              ]
             }
           ]
         },
@@ -1382,7 +1443,10 @@
               "type": {
                 "value": "KeyPressed"
               },
-              "parameters": ["", "Space"]
+              "parameters": [
+                "",
+                "Space"
+              ]
             },
             {
               "type": {
@@ -1396,7 +1460,13 @@
               "type": {
                 "value": "PlaySound"
               },
-              "parameters": ["", "Laser Gun Sound Effect.wav", "", "100", "35"]
+              "parameters": [
+                "",
+                "Laser Gun Sound Effect.wav",
+                "",
+                "100",
+                "35"
+              ]
             }
           ]
         },
@@ -1420,7 +1490,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["ROCKET_1", "Aws", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Aws",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1440,7 +1516,10 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Aws", ""]
+              "parameters": [
+                "Aws",
+                ""
+              ]
             },
             {
               "type": {
@@ -1458,13 +1537,24 @@
               "type": {
                 "value": "Health::Health::Hit"
               },
-              "parameters": ["ROCKET_1", "Health", "1", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "TiledSpriteObject::Width"
               },
-              "parameters": ["HealthBar", "=", "ROCKET_1.Health::Health()*61"]
+              "parameters": [
+                "HealthBar",
+                "=",
+                "ROCKET_1.Health::Health()*61"
+              ]
             }
           ]
         },
@@ -1475,7 +1565,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["ROCKET_1", "podium", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "podium",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1495,7 +1591,10 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["podium", ""]
+              "parameters": [
+                "podium",
+                ""
+              ]
             },
             {
               "type": {
@@ -1513,13 +1612,24 @@
               "type": {
                 "value": "Health::Health::Hit"
               },
-              "parameters": ["ROCKET_1", "Health", "1", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "TiledSpriteObject::Width"
               },
-              "parameters": ["HealthBar", "=", "ROCKET_1.Health::Health()*61"]
+              "parameters": [
+                "HealthBar",
+                "=",
+                "ROCKET_1.Health::Health()*61"
+              ]
             }
           ]
         },
@@ -1530,7 +1640,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["ROCKET_1", "podium2", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "podium2",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1550,7 +1666,10 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["podium2", ""]
+              "parameters": [
+                "podium2",
+                ""
+              ]
             },
             {
               "type": {
@@ -1568,13 +1687,24 @@
               "type": {
                 "value": "Health::Health::Hit"
               },
-              "parameters": ["ROCKET_1", "Health", "1", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "TiledSpriteObject::Width"
               },
-              "parameters": ["HealthBar", "=", "ROCKET_1.Health::Health()*61"]
+              "parameters": [
+                "HealthBar",
+                "=",
+                "ROCKET_1.Health::Health()*61"
+              ]
             }
           ]
         },
@@ -1585,7 +1715,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["ROCKET_1", "TheHive", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "TheHive",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1605,7 +1741,10 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["TheHive", ""]
+              "parameters": [
+                "TheHive",
+                ""
+              ]
             },
             {
               "type": {
@@ -1623,13 +1762,24 @@
               "type": {
                 "value": "Health::Health::Hit"
               },
-              "parameters": ["ROCKET_1", "Health", "1", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "TiledSpriteObject::Width"
               },
-              "parameters": ["HealthBar", "=", "ROCKET_1.Health::Health()*61"]
+              "parameters": [
+                "HealthBar",
+                "=",
+                "ROCKET_1.Health::Health()*61"
+              ]
             }
           ]
         },
@@ -1666,7 +1816,10 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Collaboration_OR_Team_Work", ""]
+              "parameters": [
+                "Collaboration_OR_Team_Work",
+                ""
+              ]
             },
             {
               "type": {
@@ -1684,13 +1837,24 @@
               "type": {
                 "value": "Health::Health::Hit"
               },
-              "parameters": ["ROCKET_1", "Health", "1", "", "", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "TiledSpriteObject::Width"
               },
-              "parameters": ["HealthBar", "=", "ROCKET_1.Health::Health()*61"]
+              "parameters": [
+                "HealthBar",
+                "=",
+                "ROCKET_1.Health::Health()*61"
+              ]
             }
           ]
         },
@@ -1724,7 +1888,11 @@
               "type": {
                 "value": "Health::Health::IsDead"
               },
-              "parameters": ["ROCKET_1", "Health", ""]
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1732,13 +1900,19 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["ROCKET_1", ""]
+              "parameters": [
+                "ROCKET_1",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "SetSceneVariableAsBoolean"
               },
-              "parameters": ["GameOver", "True"]
+              "parameters": [
+                "GameOver",
+                "True"
+              ]
             }
           ]
         },
@@ -1762,7 +1936,10 @@
               "type": {
                 "value": "SceneVariableAsBoolean"
               },
-              "parameters": ["Scrolling", "True"]
+              "parameters": [
+                "Scrolling",
+                "True"
+              ]
             }
           ],
           "actions": [
@@ -1770,25 +1947,45 @@
               "type": {
                 "value": "SetCameraCenterY"
               },
-              "parameters": ["camera", "-", "20*TimeDelta()", "", ""]
+              "parameters": [
+                "camera",
+                "-",
+                "20*TimeDelta()",
+                "",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "TiledSpriteObject::YOffset"
               },
-              "parameters": ["Space", "-", "10*TimeDelta()"]
+              "parameters": [
+                "Space",
+                "-",
+                "10*TimeDelta()"
+              ]
             },
             {
               "type": {
                 "value": "AddForceXY"
               },
-              "parameters": ["ROCKET_1", "0", "-20", ""]
+              "parameters": [
+                "ROCKET_1",
+                "0",
+                "-20",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "AddForceXY"
               },
-              "parameters": ["HealthBar", "0", "-20", ""]
+              "parameters": [
+                "HealthBar",
+                "0",
+                "-20",
+                ""
+              ]
             }
           ]
         }
@@ -1811,7 +2008,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Bullet", "podium2", "", "", ""]
+              "parameters": [
+                "Bullet",
+                "podium2",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1831,13 +2034,19 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Bullet", ""]
+              "parameters": [
+                "Bullet",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["podium2", ""]
+              "parameters": [
+                "podium2",
+                ""
+              ]
             },
             {
               "type": {
@@ -1860,7 +2069,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Bullet", "podium", "", "", ""]
+              "parameters": [
+                "Bullet",
+                "podium",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1880,13 +2095,19 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["podium", ""]
+              "parameters": [
+                "podium",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Bullet", ""]
+              "parameters": [
+                "Bullet",
+                ""
+              ]
             },
             {
               "type": {
@@ -1909,7 +2130,13 @@
               "type": {
                 "value": "CollisionNP"
               },
-              "parameters": ["Bullet", "Aws", "", "", ""]
+              "parameters": [
+                "Bullet",
+                "Aws",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -1929,13 +2156,19 @@
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Bullet", ""]
+              "parameters": [
+                "Bullet",
+                ""
+              ]
             },
             {
               "type": {
                 "value": "Delete"
               },
-              "parameters": ["Aws", ""]
+              "parameters": [
+                "Aws",
+                ""
+              ]
             },
             {
               "type": {
@@ -1972,7 +2205,10 @@
           "type": {
             "value": "SceneVariableAsBoolean"
           },
-          "parameters": ["GameOver", "True"]
+          "parameters": [
+            "GameOver",
+            "True"
+          ]
         }
       ],
       "actions": [
@@ -1980,7 +2216,10 @@
           "type": {
             "value": "Montre"
           },
-          "parameters": ["GameOver", ""]
+          "parameters": [
+            "GameOver",
+            ""
+          ]
         },
         {
           "type": {
@@ -1998,7 +2237,10 @@
           "type": {
             "value": "SetSceneVariableAsBoolean"
           },
-          "parameters": ["Scrolling", "False"]
+          "parameters": [
+            "Scrolling",
+            "False"
+          ]
         }
       ]
     }
