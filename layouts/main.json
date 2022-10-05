@@ -252,6 +252,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "GameScore",
+      "persistentUuid": "d84130fe-9a00-4aaf-a788-2cb964b48b8f",
+      "width": 0,
+      "x": 608,
+      "y": 32,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2007,6 +2022,17 @@
                 "-20",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "GameScore",
+                "0",
+                "-20",
+                ""
+              ]
             }
           ]
         }
@@ -2080,6 +2106,16 @@
                 "100",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -2139,6 +2175,16 @@
                 "Muffled Explosion Sound Effect.wav",
                 "",
                 "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
                 "1"
               ]
             }
@@ -2202,6 +2248,16 @@
                 "100",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
             }
           ]
         },
@@ -2263,6 +2319,16 @@
                 "100",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
             }
           ]
         }
@@ -2322,6 +2388,35 @@
           "parameters": [
             "Scrolling",
             "False"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Score",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "GameScore",
+            "=",
+            "VariableString(Score)"
           ]
         }
       ]
