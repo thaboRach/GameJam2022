@@ -289,6 +289,60 @@
         "metadata": "",
         "name": "PublicPixel-z84yD.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RUDOLPH.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RUDOLPH.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RUDOLPH-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RUDOLPH-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RUDOLPH-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RUDOLPH-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RUDOLPH-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RUDOLPH-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RUDOLPH-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RUDOLPH-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Black_Hole_V1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black_Hole_V1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
