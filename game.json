@@ -282,6 +282,13 @@
         "name": "assets\\Health-1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "PublicPixel-z84yD.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "PublicPixel-z84yD.ttf",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
