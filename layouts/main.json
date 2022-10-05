@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2939999999999997,
+    "zoomFactor": 0.47999999999999976,
     "windowMask": false
   },
   "objectsGroups": [
@@ -61,13 +61,13 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 2421,
+      "height": 2434,
       "layer": "",
       "name": "Space",
       "persistentUuid": "300a3ea7-1c61-4a53-959a-478964287fb5",
       "width": 800,
       "x": 1,
-      "y": -1824,
+      "y": -1837,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -336,7 +336,7 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "noun-public-speaking-2146371.png",
                   "points": [],
                   "originPoint": {
@@ -350,42 +350,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 465.4088134765625,
-                        "y": 26.100629806518555
-                      },
-                      {
-                        "x": 606.289306640625,
-                        "y": 24.8427677154541
-                      },
-                      {
-                        "x": 618.867919921875,
-                        "y": 548.1132202148438
-                      },
-                      {
-                        "x": 76.72956085205078,
-                        "y": 545.5974731445312
-                      },
-                      {
-                        "x": 76.72956085205078,
-                        "y": 439.9371032714844
-                      },
-                      {
-                        "x": 120.75471496582031,
-                        "y": 273.8993835449219
-                      },
-                      {
-                        "x": 178.61634826660156,
-                        "y": 91.50943756103516
-                      },
-                      {
-                        "x": 354.71697998046875,
-                        "y": 48.74213790893555
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -438,7 +403,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "certificate.png",
                   "points": [],
                   "originPoint": {
@@ -452,26 +417,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 154.71697998046875,
-                        "y": 14.917452812194824
-                      },
-                      {
-                        "x": 557.2327270507812,
-                        "y": 0
-                      },
-                      {
-                        "x": 550.9434204101562,
-                        "y": 545.7350463867188
-                      },
-                      {
-                        "x": 137.10691833496094,
-                        "y": 540.70361328125
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -515,32 +461,6 @@
           "IsJustDodged": false,
           "ShieldDamageTaken": 0,
           "HealToBeApplied": 0
-        },
-        {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap",
-          "HorizontalWrapping": true,
-          "VerticalWrapping": true,
-          "BorderTop": 0,
-          "BorderLeft": 0,
-          "BorderRight": 0,
-          "BorderBottom": 0,
-          "TriggerOffset": 0
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 200,
-          "allowDiagonals": false,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "deceleration": 0,
-          "ignoreDefaultControls": false,
-          "maxSpeed": 400,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "viewpoint": "TopDown"
         }
       ],
       "animations": [
@@ -553,7 +473,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "BBDRocket-33.png",
                   "points": [],
                   "originPoint": {
@@ -567,50 +487,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 543.5314331054688,
-                        "y": 175.31895446777344
-                      },
-                      {
-                        "x": 566.9371337890625,
-                        "y": 259.83941650390625
-                      },
-                      {
-                        "x": 514.9244995117188,
-                        "y": 522.5029296875
-                      },
-                      {
-                        "x": 393.9952697753906,
-                        "y": 604.4227294921875
-                      },
-                      {
-                        "x": 302.9732666015625,
-                        "y": 482.19317626953125
-                      },
-                      {
-                        "x": 240.5581817626953,
-                        "y": 266.3409729003906
-                      },
-                      {
-                        "x": 269.16510009765625,
-                        "y": 196.12399291992188
-                      },
-                      {
-                        "x": 356.2861633300781,
-                        "y": 99.90071868896484
-                      },
-                      {
-                        "x": 409.59906005859375,
-                        "y": 4.977766513824463
-                      },
-                      {
-                        "x": 448.6084899902344,
-                        "y": 93.3991470336914
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -637,7 +514,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "NewSprite5-1-1-1.png",
                   "points": [],
                   "originPoint": {
@@ -651,26 +528,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28.908706665039062,
-                        "y": 16.144556045532227
-                      },
-                      {
-                        "x": 33.292354583740234,
-                        "y": 16.40241813659668
-                      },
-                      {
-                        "x": 33.03449249267578,
-                        "y": 37.804931640625
-                      },
-                      {
-                        "x": 28.65084457397461,
-                        "y": 38.57851791381836
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -903,7 +761,7 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "noun-presenter-21837642-1.png",
                   "points": [],
                   "originPoint": {
@@ -917,42 +775,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 510.69183349609375,
-                        "y": 9.748427391052246
-                      },
-                      {
-                        "x": 600,
-                        "y": 90.25157165527344
-                      },
-                      {
-                        "x": 612.57861328125,
-                        "y": 495.28302001953125
-                      },
-                      {
-                        "x": 455.3459167480469,
-                        "y": 561.94970703125
-                      },
-                      {
-                        "x": 241.50942993164062,
-                        "y": 558.1760864257812
-                      },
-                      {
-                        "x": 93.0817642211914,
-                        "y": 488.99371337890625
-                      },
-                      {
-                        "x": 94.3396224975586,
-                        "y": 104.08805084228516
-                      },
-                      {
-                        "x": 201.2578582763672,
-                        "y": 8.49056625366211
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -993,7 +816,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "noun-collaboration-2909353-1.png",
                   "points": [],
                   "originPoint": {
@@ -1007,46 +830,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1158.9622802734375,
-                        "y": 255.5989532470703
-                      },
-                      {
-                        "x": 964.7798461914062,
-                        "y": 656.2279052734375
-                      },
-                      {
-                        "x": 731.760986328125,
-                        "y": 1118.1776123046875
-                      },
-                      {
-                        "x": 455.8175964355469,
-                        "y": 1101.8253173828125
-                      },
-                      {
-                        "x": 32.704402923583984,
-                        "y": 237.20272827148438
-                      },
-                      {
-                        "x": 177.83018493652344,
-                        "y": 63.460594177246094
-                      },
-                      {
-                        "x": 406.7610168457031,
-                        "y": 94.1209716796875
-                      },
-                      {
-                        "x": 727.6729736328125,
-                        "y": 114.56122589111328
-                      },
-                      {
-                        "x": 1032.232666015625,
-                        "y": 102.29707336425781
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -1073,7 +857,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": true,
+                  "hasCustomCollisionMask": false,
                   "image": "assets\\The Hive.png",
                   "points": [],
                   "originPoint": {
@@ -1087,42 +871,7 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 498.11322021484375,
-                        "y": 0
-                      },
-                      {
-                        "x": 607.5471801757812,
-                        "y": 53.77358627319336
-                      },
-                      {
-                        "x": 542.1383666992188,
-                        "y": 638.6792602539062
-                      },
-                      {
-                        "x": 182.3899383544922,
-                        "y": 642.4528198242188
-                      },
-                      {
-                        "x": 147.16981506347656,
-                        "y": 394.6540832519531
-                      },
-                      {
-                        "x": 168.55345153808594,
-                        "y": 258.8050231933594
-                      },
-                      {
-                        "x": 294.3396301269531,
-                        "y": 178.3018798828125
-                      },
-                      {
-                        "x": 485.5345764160156,
-                        "y": 28.616352081298828
-                      }
-                    ]
-                  ]
+                  "customCollisionMask": []
                 }
               ]
             }
@@ -2277,10 +2026,6 @@
     {
       "name": "ScreenWrap",
       "type": "ScreenWrap::ScreenWrap"
-    },
-    {
-      "name": "TopDownMovement",
-      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
