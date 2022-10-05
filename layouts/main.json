@@ -66,8 +66,8 @@
       "name": "Space",
       "persistentUuid": "300a3ea7-1c61-4a53-959a-478964287fb5",
       "width": 800,
-      "x": 1,
-      "y": -1824,
+      "x": 0,
+      "y": -1813,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1187,6 +1187,27 @@
         "g": 255,
         "r": 255
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "GameScore",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "PublicPixel-z84yD.ttf",
+      "characterSize": 23,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -2180,6 +2201,67 @@
                 "",
                 "100",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "TheHive",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BasicExplosionEnergy",
+                "TheHive.X()",
+                "TheHive.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TheHive",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Muffled Explosion Sound Effect.wav",
+                "",
+                "100",
+                ""
               ]
             }
           ]
