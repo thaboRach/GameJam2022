@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2899999999999998,
+    "zoomFactor": 0.6519987674622748,
     "windowMask": false
   },
   "objectsGroups": [
@@ -690,6 +690,34 @@
       ],
       "behaviors": [
         {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
           "name": "ScreenWrap",
           "type": "ScreenWrap::ScreenWrap",
           "HorizontalWrapping": true,
@@ -792,6 +820,34 @@
       ],
       "behaviors": [
         {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
           "name": "ScreenWrap",
           "type": "ScreenWrap::ScreenWrap",
           "HorizontalWrapping": true,
@@ -874,9 +930,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 5,
+          "Health": 3,
           "CurrentHealth": 0,
-          "MaxHealth": 5,
+          "MaxHealth": 3,
           "DamageCooldown": 0,
           "IsHealthJustDamaged": false,
           "HealthRegenRate": 0,
@@ -1003,6 +1059,347 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "podium2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "211;0;0"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        },
+        {
+          "name": "ScreenWrap",
+          "type": "ScreenWrap::ScreenWrap",
+          "HorizontalWrapping": true,
+          "VerticalWrapping": true,
+          "BorderTop": 0,
+          "BorderLeft": 0,
+          "BorderRight": 0,
+          "BorderBottom": 0,
+          "TriggerOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "noun-presenter-21837642",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "noun-presenter-21837642-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 510.69183349609375,
+                        "y": 9.748427391052246
+                      },
+                      {
+                        "x": 600,
+                        "y": 90.25157165527344
+                      },
+                      {
+                        "x": 612.57861328125,
+                        "y": 495.28302001953125
+                      },
+                      {
+                        "x": 455.3459167480469,
+                        "y": 561.94970703125
+                      },
+                      {
+                        "x": 241.50942993164062,
+                        "y": 558.1760864257812
+                      },
+                      {
+                        "x": 93.0817642211914,
+                        "y": 488.99371337890625
+                      },
+                      {
+                        "x": 94.3396224975586,
+                        "y": 104.08805084228516
+                      },
+                      {
+                        "x": 201.2578582763672,
+                        "y": 8.49056625366211
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Collaboration_OR_Team_Work",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "#ffffff"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "noun-collaboration-2909353-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1158.9622802734375,
+                        "y": 255.5989532470703
+                      },
+                      {
+                        "x": 964.7798461914062,
+                        "y": 656.2279052734375
+                      },
+                      {
+                        "x": 731.760986328125,
+                        "y": 1118.1776123046875
+                      },
+                      {
+                        "x": 455.8175964355469,
+                        "y": 1101.8253173828125
+                      },
+                      {
+                        "x": 32.704402923583984,
+                        "y": 237.20272827148438
+                      },
+                      {
+                        "x": 177.83018493652344,
+                        "y": 63.460594177246094
+                      },
+                      {
+                        "x": 406.7610168457031,
+                        "y": 94.1209716796875
+                      },
+                      {
+                        "x": 727.6729736328125,
+                        "y": 114.56122589111328
+                      },
+                      {
+                        "x": 1032.232666015625,
+                        "y": 102.29707336425781
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "TheHive",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 3,
+          "CurrentHealth": 0,
+          "MaxHealth": 3,
+          "DamageCooldown": 0,
+          "IsHealthJustDamaged": false,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "AllowOverHealing": false,
+          "HitAtLeastOnce": false,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 0,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ChanceToDodge": 0,
+          "DamageToBeApplied": 0,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0,
+          "IsJustDodged": false,
+          "ShieldDamageTaken": 0,
+          "HealToBeApplied": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\The Hive.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 498.11322021484375,
+                        "y": 0
+                      },
+                      {
+                        "x": 607.5471801757812,
+                        "y": 53.77358627319336
+                      },
+                      {
+                        "x": 542.1383666992188,
+                        "y": 638.6792602539062
+                      },
+                      {
+                        "x": 182.3899383544922,
+                        "y": 642.4528198242188
+                      },
+                      {
+                        "x": 147.16981506347656,
+                        "y": 394.6540832519531
+                      },
+                      {
+                        "x": 168.55345153808594,
+                        "y": 258.8050231933594
+                      },
+                      {
+                        "x": 294.3396301269531,
+                        "y": 178.3018798828125
+                      },
+                      {
+                        "x": 485.5345764160156,
+                        "y": 28.616352081298828
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 50,
+      "name": "HealthBar",
+      "tags": "",
+      "texture": "assets\\Health.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 61,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     },
     {
       "assetStoreId": "",
@@ -1240,290 +1637,6 @@
       "textureParticleName": "Lightning-Texture-1.png",
       "type": "ParticleSystem::ParticleEmitter",
       "zoneRadius": 3,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "name": "podium2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Glow",
-          "name": "Effect",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "211;0;0"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [
-        {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap",
-          "HorizontalWrapping": true,
-          "VerticalWrapping": true,
-          "BorderTop": 0,
-          "BorderLeft": 0,
-          "BorderRight": 0,
-          "BorderBottom": 0,
-          "TriggerOffset": 0
-        }
-      ],
-      "animations": [
-        {
-          "name": "noun-presenter-21837642",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.07999999821186066,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "noun-presenter-21837642-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 510.69183349609375,
-                        "y": 9.748427391052246
-                      },
-                      {
-                        "x": 600,
-                        "y": 90.25157165527344
-                      },
-                      {
-                        "x": 612.57861328125,
-                        "y": 495.28302001953125
-                      },
-                      {
-                        "x": 455.3459167480469,
-                        "y": 561.94970703125
-                      },
-                      {
-                        "x": 241.50942993164062,
-                        "y": 558.1760864257812
-                      },
-                      {
-                        "x": 93.0817642211914,
-                        "y": 488.99371337890625
-                      },
-                      {
-                        "x": 94.3396224975586,
-                        "y": 104.08805084228516
-                      },
-                      {
-                        "x": 201.2578582763672,
-                        "y": 8.49056625366211
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "Collaboration_OR_Team_Work",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "Glow",
-          "name": "Effect",
-          "doubleParameters": {
-            "distance": 15,
-            "innerStrength": 1,
-            "outerStrength": 2
-          },
-          "stringParameters": {
-            "color": "#ffffff"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "noun-collaboration-2909353-1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 1158.9622802734375,
-                        "y": 255.5989532470703
-                      },
-                      {
-                        "x": 964.7798461914062,
-                        "y": 656.2279052734375
-                      },
-                      {
-                        "x": 731.760986328125,
-                        "y": 1118.1776123046875
-                      },
-                      {
-                        "x": 455.8175964355469,
-                        "y": 1101.8253173828125
-                      },
-                      {
-                        "x": 32.704402923583984,
-                        "y": 237.20272827148438
-                      },
-                      {
-                        "x": 177.83018493652344,
-                        "y": 63.460594177246094
-                      },
-                      {
-                        "x": 406.7610168457031,
-                        "y": 94.1209716796875
-                      },
-                      {
-                        "x": 727.6729736328125,
-                        "y": 114.56122589111328
-                      },
-                      {
-                        "x": 1032.232666015625,
-                        "y": 102.29707336425781
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "TheHive",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\The Hive.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 498.11322021484375,
-                        "y": 0
-                      },
-                      {
-                        "x": 607.5471801757812,
-                        "y": 53.77358627319336
-                      },
-                      {
-                        "x": 542.1383666992188,
-                        "y": 638.6792602539062
-                      },
-                      {
-                        "x": 182.3899383544922,
-                        "y": 642.4528198242188
-                      },
-                      {
-                        "x": 147.16981506347656,
-                        "y": 394.6540832519531
-                      },
-                      {
-                        "x": 168.55345153808594,
-                        "y": 258.8050231933594
-                      },
-                      {
-                        "x": 294.3396301269531,
-                        "y": 178.3018798828125
-                      },
-                      {
-                        "x": 485.5345764160156,
-                        "y": 28.616352081298828
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "height": 50,
-      "name": "HealthBar",
-      "tags": "",
-      "texture": "assets\\Health.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 61,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -2284,16 +2397,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -2467,13 +2570,14 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "Health::Health::Hit"
               },
               "parameters": [
+                "podium2",
+                "Health",
+                "1",
                 "",
-                "BasicExplosionEnergy",
-                "podium2.X()",
-                "podium2.Y()",
+                "",
                 ""
               ]
             },
@@ -2483,15 +2587,6 @@
               },
               "parameters": [
                 "Bullet",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "podium2",
                 ""
               ]
             },
@@ -2531,6 +2626,243 @@
                 "podium",
                 "",
                 "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "podium",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Muffled Explosion Sound Effect.wav",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "Aws",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "Aws",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Muffled Explosion Sound Effect.wav",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Bullet",
+                "TheHive",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "TheHive",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "TheHive",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Muffled Explosion Sound Effect.wav",
+                "",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "Score",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Obstacle removal",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Aws",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BasicExplosionEnergy",
+                "Aws.X()",
+                "Aws.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Aws",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "podium",
+                "Health",
                 ""
               ]
             }
@@ -2556,37 +2888,6 @@
                 "podium",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Bullet",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Muffled Explosion Sound Effect.wav",
-                "",
-                "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "1"
-              ]
             }
           ]
         },
@@ -2595,13 +2896,11 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "Health::Health::IsDead"
               },
               "parameters": [
-                "Bullet",
-                "Aws",
-                "",
-                "",
+                "podium2",
+                "Health",
                 ""
               ]
             }
@@ -2614,8 +2913,8 @@
               "parameters": [
                 "",
                 "BasicExplosionEnergy",
-                "Aws.X()",
-                "Aws.Y()",
+                "podium2.X()",
+                "podium2.Y()",
                 ""
               ]
             },
@@ -2624,39 +2923,8 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Bullet",
+                "podium2",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Aws",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Muffled Explosion Sound Effect.wav",
-                "",
-                "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "1"
               ]
             }
           ]
@@ -2666,13 +2934,11 @@
           "conditions": [
             {
               "type": {
-                "value": "CollisionNP"
+                "value": "Health::Health::IsDead"
               },
               "parameters": [
-                "Bullet",
                 "TheHive",
-                "",
-                "",
+                "Health",
                 ""
               ]
             }
@@ -2695,28 +2961,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "Bullet",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
                 "TheHive",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Muffled Explosion Sound Effect.wav",
-                "",
-                "100",
                 ""
               ]
             },
@@ -2743,83 +2988,84 @@
       "name": "Interface(UI)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "events": [
         {
-          "type": {
-            "value": "SceneVariableAsBoolean"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOver",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "CameraCenterX()",
+                "=",
+                "CameraCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Scrolling",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
           },
-          "parameters": [
-            "GameOver",
-            "True"
+          "comment": "Score",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GameScore",
+                "=",
+                "VariableString(Score)"
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "GameOver",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "GameOver",
-            "=",
-            "CameraCenterX()",
-            "=",
-            "CameraCenterY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Scrolling",
-            "False"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Score",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "GameScore",
-            "=",
-            "VariableString(Score)"
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
