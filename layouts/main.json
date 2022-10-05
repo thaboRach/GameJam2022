@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.47999999999999976,
+    "zoomFactor": 0.8200000000000001,
     "windowMask": false
   },
   "objectsGroups": [
@@ -432,7 +432,15 @@
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "",
+          "name": "Effect",
+          "doubleParameters": {},
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [
         {
           "name": "Health",
@@ -461,6 +469,35 @@
           "IsJustDodged": false,
           "ShieldDamageTaken": 0,
           "HealToBeApplied": 0
+        },
+        {
+          "name": "LinearMovement",
+          "type": "LinearMovement::LinearMovement",
+          "SpeedX": 0,
+          "SpeedY": -150
+        },
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen",
+          "MarginTop": 0,
+          "MarginBottom": 0,
+          "MarginLeft": 20,
+          "MarginRight": 20
+        },
+        {
+          "acceleration": 400,
+          "allowDiagonals": false,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "deceleration": 800,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "name": "TopDownMovement",
+          "rotateObject": false,
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "viewpoint": "TopDown"
         }
       ],
       "animations": [
@@ -2024,8 +2061,20 @@
       "type": "Health::Health"
     },
     {
+      "name": "LinearMovement",
+      "type": "LinearMovement::LinearMovement"
+    },
+    {
       "name": "ScreenWrap",
       "type": "ScreenWrap::ScreenWrap"
+    },
+    {
+      "name": "StayOnScreen",
+      "type": "StayOnScreen::StayOnScreen"
+    },
+    {
+      "name": "TopDownMovement",
+      "type": "TopDownMovementBehavior::TopDownMovementBehavior"
     }
   ]
 }
