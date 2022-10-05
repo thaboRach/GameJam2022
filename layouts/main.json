@@ -201,8 +201,8 @@
       "name": "Collaboration_OR_Team_Work",
       "persistentUuid": "e26af9ac-dcd8-4c1a-a3c1-367204519f62",
       "width": 106,
-      "x": 232,
-      "y": 60,
+      "x": 150,
+      "y": 128,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -1697,6 +1697,18 @@
               "parameters": [
                 "GameOver"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Collaboration_OR_Team_Work",
+                "=",
+                "RandomInRange(5, 500)",
+                "=",
+                "RandomInRange(4, 500)"
+              ]
             }
           ]
         },
@@ -1797,27 +1809,6 @@
               },
               "parameters": [
                 "TheHive",
-                "15",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Collaboration_OR_Team_Work",
-                "210",
-                "75",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Collaboration_OR_Team_Work",
                 "15",
                 ""
               ]
@@ -2270,58 +2261,24 @@
           "actions": [
             {
               "type": {
-                "value": "Create"
+                "value": "ModVarScene"
               },
               "parameters": [
-                "",
-                "BasicExplosionEnergy",
-                "podium2.X()",
-                "podium2.Y()",
-                ""
+                "Score",
+                "+",
+                "4"
               ]
             },
             {
               "type": {
-                "value": "Delete"
+                "value": "MettreXY"
               },
               "parameters": [
                 "Collaboration_OR_Team_Work",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "Muffled Explosion Sound Effect.wav",
-                "",
-                "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Health::Health::Hit"
-              },
-              "parameters": [
-                "ROCKET_1",
-                "Health",
-                "1",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TiledSpriteObject::Width"
-              },
-              "parameters": [
-                "HealthBar",
                 "=",
-                "ROCKET_1.Health::Health()*61"
+                "RandomInRange(1, 500)",
+                "=",
+                "RandomInRange(1, 500)"
               ]
             }
           ]
@@ -2461,6 +2418,17 @@
               },
               "parameters": [
                 "GameScore",
+                "0",
+                "-20",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "Collaboration_OR_Team_Work",
                 "0",
                 "-20",
                 ""
