@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6300000000000002,
+    "zoomFactor": 0.27000000000000024,
     "windowMask": false
   },
   "objectsGroups": [
@@ -516,8 +516,8 @@
       "name": "Black_hole",
       "persistentUuid": "f85918da-dbb6-42bc-8dcd-801894a617cf",
       "width": 412,
-      "x": 388,
-      "y": -1376,
+      "x": 378,
+      "y": -2028,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -681,9 +681,144 @@
       "name": "DRONE",
       "persistentUuid": "ec16c786-b08b-41da-b1cc-3faaae23894f",
       "width": 282,
-      "x": 4,
-      "y": -3515,
+      "x": 0,
+      "y": -3519,
       "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 188,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "fcefc924-6226-498a-80fc-d97ed09e5ea5",
+      "width": 196,
+      "x": 48,
+      "y": -86,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 98,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "7759f293-ad27-49eb-a3d6-5bb515cc7c94",
+      "width": 99,
+      "x": 84,
+      "y": -952,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 180,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "cbc8f957-1195-4281-9064-3b024c124cdb",
+      "width": 168,
+      "x": 601,
+      "y": -1098,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 98,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "91d6988e-bb11-4d16-a774-ef3b35335b82",
+      "width": 99,
+      "x": 142,
+      "y": -1666,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 98,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "d6d16199-e87b-4329-be90-b51fbef04bd9",
+      "width": 99,
+      "x": 603,
+      "y": -2419,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "Aws",
+      "persistentUuid": "6cd6578d-d181-434a-b864-1670850f8679",
+      "width": 70,
+      "x": 237,
+      "y": -1300,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium2",
+      "persistentUuid": "7dc58315-ffce-49c1-b602-341f24c37e72",
+      "width": 65,
+      "x": 507,
+      "y": -1495,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium",
+      "persistentUuid": "7d8f5627-b642-434a-ab35-2c04dd89fcf5",
+      "width": 65,
+      "x": 140,
+      "y": -2025,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 416,
+      "layer": "",
+      "name": "Black_hole",
+      "persistentUuid": "24458479-95f7-4d41-a112-1b7ab32e9b06",
+      "width": 412,
+      "x": 4,
+      "y": -2776,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1999,10 +2134,15 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "LinearMovement",
-          "type": "LinearMovement::LinearMovement",
-          "SpeedX": -50,
-          "SpeedY": 0
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+          "Vertical": false,
+          "Speed": 100,
+          "Distance": 550,
+          "Timeout": 2,
+          "StartPosition": 0,
+          "LastPosition": 0,
+          "Timecheck": 0
         }
       ],
       "animations": [
@@ -2058,6 +2198,59 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "noun-banana-20961842.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "Meteorite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "TimedBackAndForthMirroredMovement",
+          "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement",
+          "Vertical": false,
+          "Speed": 25,
+          "Distance": 50,
+          "Timeout": 2,
+          "StartPosition": 0,
+          "LastPosition": 0,
+          "Timecheck": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Meteorite4.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3590,6 +3783,10 @@
     {
       "name": "StayOnScreen",
       "type": "StayOnScreen::StayOnScreen"
+    },
+    {
+      "name": "TimedBackAndForthMirroredMovement",
+      "type": "TimedBackAndForthMovement::TimedBackAndForthMirroredMovement"
     },
     {
       "name": "TopDownMovement",
