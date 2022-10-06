@@ -370,15 +370,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "noun-banana-20961842.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "noun-banana-20961842.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Meteorite3.png",
         "kind": "image",
         "metadata": "",
@@ -452,6 +443,42 @@
           "identifier": "https://resources.gdevelop-app.com/assets/FoozleCC/Void Collection/Environment Pack/Backgrounds/tiled_Starry Background Solid Colour.png",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite5-1-1-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite5-1-1-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-banana-20961842.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-banana-20961842.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-banana-20961842-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-banana-20961842-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-banana-20961842-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-banana-20961842-1-0.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
