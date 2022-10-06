@@ -26,15 +26,105 @@
   "instances": [
     {
       "angle": 0,
+      "customSize": true,
+      "height": 601,
+      "layer": "",
+      "name": "BlackSpace",
+      "persistentUuid": "201a1841-c86b-4882-9b30-040a16964f32",
+      "width": 800,
+      "x": 0,
+      "y": 0,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 143,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "43b614f4-f734-4c62-9396-4f015eeadaea",
+      "width": 167,
+      "x": 26,
+      "y": 22,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 120,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "e3e444b5-93cb-4eb6-8b20-1c633d00b116",
+      "width": 148,
+      "x": 576,
+      "y": 395,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 120,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "29b7b697-00e9-4dc6-b0c8-051e202b2938",
+      "width": 148,
+      "x": 619,
+      "y": 111,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 120,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "450d8d36-3bec-4e87-a040-27b5a1d23461",
+      "width": 148,
+      "x": 328,
+      "y": 25,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 120,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "b2d43372-1e39-4fd6-9d16-8cd104dd3f58",
+      "width": 148,
+      "x": 94,
+      "y": 433,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "txt",
-      "persistentUuid": "65b8dc78-1371-4a77-b35b-c4f395ed7a90",
+      "persistentUuid": "7611eb9a-2ed5-4b9e-a671-a5444eea3edb",
       "width": 0,
-      "x": 305,
-      "y": 47,
-      "zOrder": 1,
+      "x": 161,
+      "y": 88,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -54,13 +144,37 @@
       "effects": [],
       "behaviors": [],
       "string": "Loading Scores...",
-      "font": "",
-      "characterSize": 20,
+      "font": "PublicPixel-z84yD.ttf",
+      "characterSize": 27,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 128,
+      "name": "BlackSpace",
+      "tags": "",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "c20fe4657b50f46f901b666ddae13412211ef388c101136bacecd5bee34520b4",
+      "height": 128,
+      "name": "StarryBackgroundStars2",
+      "tags": "",
+      "texture": "tiled_Starry Background Stars 2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -131,7 +245,7 @@
           "parameters": [
             "txt",
             "=",
-            "\"~~Leaderboards~~\" + NewLine() + NewLine()"
+            "\"Leaderboards\" + NewLine() + NewLine()"
           ]
         }
       ]
@@ -150,7 +264,7 @@
           "parameters": [
             "txt",
             "+",
-            "ToString(Variable(i) + 1) + \". \" + VariableString(doc.data.name) + \" --- \" + VariableString(doc.data.score) +  NewLine()"
+            " \nToString(Variable(i) + 1) + \". \" + \n VariableString(doc.data.name) + NewLine() + NewLine() + \" --- \" + VariableString(doc.data.score) + NewLine() + NewLine()\n"
           ]
         }
       ]

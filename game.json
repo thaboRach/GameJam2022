@@ -376,6 +376,82 @@
         "name": "noun-banana-20961842.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Meteorite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Meteorite3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "BBDRocket-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "BBDRocket-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "second rocket option.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "second rocket option.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "secondrocketoption-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "secondrocketoption-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "secondrocketoption-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "secondrocketoption-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "secondrocketoption-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "secondrocketoption-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Meteorite4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Meteorite4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Starry Background Solid Colour.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Starry Background Solid Colour.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://resources.gdevelop-app.com/assets/FoozleCC/Void Collection/Environment Pack/Backgrounds/tiled_Starry Background Solid Colour.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []
@@ -399,6 +475,22 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/timedbackandforthmovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/sinemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/drawpathfinding"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
