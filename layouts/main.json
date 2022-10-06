@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4038478197207529,
+    "zoomFactor": 0.40564781972075276,
     "windowMask": false
   },
   "objectsGroups": [
@@ -654,6 +654,21 @@
       "x": 800,
       "y": -256,
       "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "txtGamerName",
+      "persistentUuid": "5d194c5c-67d9-4de0-b23a-3f695d01eb4e",
+      "width": 0,
+      "x": 28,
+      "y": 553,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1937,6 +1952,27 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "txtGamerName",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "PublicPixel-z84yD.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
     }
   ],
   "events": [
@@ -1990,6 +2026,16 @@
                 "RandomInRange(5, 500)",
                 "=",
                 "RandomInRange(4, 500)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtGamerName",
+                "=",
+                "GlobalVariableString(User.name)"
               ]
             }
           ]
@@ -2548,16 +2594,6 @@
           "actions": [
             {
               "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "Score",
-                "+",
-                "4"
-              ]
-            },
-            {
-              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
@@ -2566,6 +2602,16 @@
                 "RandomInRange(1, 500)",
                 "=",
                 "RandomInRange(1, 500)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "User.score",
+                "+",
+                "5"
               ]
             }
           ]
@@ -2823,21 +2869,21 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "Bullet",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -2874,21 +2920,21 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "Bullet",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -2925,21 +2971,21 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "Bullet",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -2976,21 +3022,21 @@
                 },
                 {
                   "type": {
-                    "value": "ModVarScene"
-                  },
-                  "parameters": [
-                    "Score",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Delete"
                   },
                   "parameters": [
                     "Bullet",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "1"
                   ]
                 }
               ]
@@ -3054,6 +3100,16 @@
                     "100",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "3"
+                  ]
                 }
               ]
             },
@@ -3103,6 +3159,16 @@
                     "",
                     "100",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "3"
                   ]
                 }
               ]
@@ -3154,6 +3220,16 @@
                     "100",
                     "1"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "3"
+                  ]
                 }
               ]
             },
@@ -3203,6 +3279,16 @@
                     "",
                     "100",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "User.score",
+                    "+",
+                    "3"
                   ]
                 }
               ]
@@ -3267,6 +3353,26 @@
             "Scrolling",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "Firebase::FirestoreAddDocument"
+          },
+          "parameters": [
+            "\"Leaderboard\"",
+            "User",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"LeaderBoard\"",
+            ""
+          ]
         }
       ]
     },
@@ -3294,15 +3400,39 @@
           "parameters": [
             "GameScore",
             "=",
-            "VariableString(Score)"
+            "VariableString(User.score)"
           ]
         }
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Username",
+      "comment2": ""
+    },
+    {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "User.name",
+            "=",
+            "txtGamerName.String()"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
