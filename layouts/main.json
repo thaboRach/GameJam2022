@@ -2583,16 +2583,6 @@
                 "100",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "User.score",
-                "+",
-                "1"
-              ]
             }
           ]
         },
@@ -2652,16 +2642,6 @@
                 "Muffled Explosion Sound Effect.wav",
                 "",
                 "100",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "User.score",
-                "+",
                 "1"
               ]
             }
@@ -2725,16 +2705,6 @@
                 "100",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "User.score",
-                "+",
-                "1"
-              ]
             }
           ]
         },
@@ -2795,16 +2765,6 @@
                 "",
                 "100",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "User.score",
-                "+",
-                "1"
               ]
             }
           ]
