@@ -349,6 +349,33 @@
         "name": "Black_Hole_V1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-drone-12014543.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-drone-12014543.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-drone-12014543-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-drone-12014543-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "noun-banana-20961842.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "noun-banana-20961842.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
