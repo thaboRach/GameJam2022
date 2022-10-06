@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6333048914790145,
+    "zoomFactor": 0.27,
     "windowMask": false
   },
   "objectsGroups": [
@@ -681,8 +681,8 @@
       "name": "DRONE",
       "persistentUuid": "ec16c786-b08b-41da-b1cc-3faaae23894f",
       "width": 282,
-      "x": 0,
-      "y": -3519,
+      "x": 79.84635925292969,
+      "y": -3475.035888671875,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -2154,8 +2154,8 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 344.6540832519531,
+                    "y": 251.2578582763672
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2191,7 +2191,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "noun-banana-20961842.png",
+                  "image": "noun-banana-20961842-1-0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2245,6 +2245,47 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "Meteorite4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "EBullet",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "NewSprite5-1-1-13.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2327,6 +2368,15 @@
                 "txtGamerName",
                 "=",
                 "GlobalVariableString(User.name)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"BulletTimer\""
               ]
             }
           ]
@@ -3756,6 +3806,115 @@
             "User.name",
             "=",
             "txtGamerName.String()"
+          ]
+        }
+      ]
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Enemy",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"BulletTimer\"",
+            ">",
+            "1.7"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Bananna_Bullet",
+            "DRONE.X()",
+            "DRONE.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "Bananna_Bullet",
+            "DRONE.Angle() + 90",
+            "300",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "Bananna_Bullet",
+            "=",
+            "DRONE.ZOrder() -1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"BulletTimer\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "Distance"
+          },
+          "parameters": [
+            "Bananna_Bullet",
+            "DRONE",
+            "600",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "Bananna_Bullet",
+            ""
           ]
         }
       ]
