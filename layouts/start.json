@@ -6,7 +6,7 @@
   "r": 209,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
-  "title": "",
+  "title": "ROGUE ROCKET - USER SUBMISSION",
   "v": 209,
   "uiSettings": {
     "grid": false,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8416325929611923,
+    "zoomFactor": 1.1616325929611926,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -26,45 +26,75 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 601,
       "layer": "",
-      "name": "instuctions",
-      "persistentUuid": "a7d12146-896d-4375-8270-249f2e9df64b",
-      "width": 0,
-      "x": 234,
-      "y": 306,
-      "zOrder": 4,
+      "name": "BlackSpace",
+      "persistentUuid": "a4ddbb31-7c1d-4390-8b0c-77d42706a853",
+      "width": 803,
+      "x": -2,
+      "y": -2,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 196,
       "layer": "",
-      "name": "instruction2",
-      "persistentUuid": "b602573c-0190-473a-9ae7-9ac0fd3d1749",
-      "width": 0,
-      "x": 124,
-      "y": 555,
-      "zOrder": 5,
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "d4f73aab-4e6d-46a6-8263-12c9c7095385",
+      "width": 241,
+      "x": 555,
+      "y": 0,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "height": 149,
       "layer": "",
-      "name": "txtNameEntry",
-      "persistentUuid": "50c276cd-4891-4885-905a-c82427fa3c27",
-      "width": 0,
-      "x": 352,
-      "y": 408,
-      "zOrder": 6,
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "73cf2ff0-47c7-4d07-8c9a-21053229e37a",
+      "width": 190,
+      "x": 38,
+      "y": 318,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 149,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "d1e1866f-db8d-42b9-94cc-c024d3b1d293",
+      "width": 190,
+      "x": 493,
+      "y": 420,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 149,
+      "layer": "",
+      "name": "StarryBackgroundStars2",
+      "persistentUuid": "4938eeeb-dc29-45b1-92a7-da636d2080d8",
+      "width": 190,
+      "x": 86,
+      "y": 75,
+      "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -75,11 +105,11 @@
       "height": 0,
       "layer": "",
       "name": "GamerName",
-      "persistentUuid": "4317946d-8ec2-4cb7-a599-2c313e1edeca",
+      "persistentUuid": "d6697195-479e-4371-83f7-5349e32a75c7",
       "width": 0,
-      "x": 274,
-      "y": 258,
-      "zOrder": 7,
+      "x": 249,
+      "y": 152,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -90,11 +120,86 @@
       "height": 0,
       "layer": "",
       "name": "txtGamername",
-      "persistentUuid": "0a507742-6e24-4663-96a1-0cef848c2bdf",
+      "persistentUuid": "3d1cf843-ef3d-44be-ae70-e5a4c5a63edc",
       "width": 0,
-      "x": 3,
-      "y": 255,
-      "zOrder": 8,
+      "x": 7,
+      "y": 148,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "instuctions",
+      "persistentUuid": "72dbcb2f-6a57-48a3-adbd-9cbf2c5416b0",
+      "width": 0,
+      "x": 252,
+      "y": 193,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "instruction2",
+      "persistentUuid": "b0504193-5595-4c0b-a164-9db0e7ba676e",
+      "width": 0,
+      "x": 60,
+      "y": 552,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "txtNameEntry",
+      "persistentUuid": "a52dbbd7-ea9e-440c-9c30-51746e1a1862",
+      "width": 0,
+      "x": 268,
+      "y": 213,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 77,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "ce9329f0-eef6-4b51-8d39-6cbf280a181b",
+      "width": 96,
+      "x": 531,
+      "y": 54,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 59,
+      "layer": "",
+      "name": "Meteorite",
+      "persistentUuid": "a501bbe0-2920-4ee9-a1cf-0143e92da0d5",
+      "width": 75,
+      "x": 26,
+      "y": 199,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -113,13 +218,13 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "text",
+      "string": "Enter User Name Here",
       "font": "PublicPixel-z84yD.ttf",
-      "characterSize": 30,
+      "characterSize": 26,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -136,11 +241,11 @@
       "behaviors": [],
       "string": "Username: ",
       "font": "PublicPixel-z84yD.ttf",
-      "characterSize": 30,
+      "characterSize": 26,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -159,9 +264,9 @@
       "font": "PublicPixel-z84yD.ttf",
       "characterSize": 15,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       }
     },
     {
@@ -178,11 +283,11 @@
       "behaviors": [],
       "string": "Press \"Enter\" to Start Game",
       "font": "PublicPixel-z84yD.ttf",
-      "characterSize": 20,
+      "characterSize": 25,
       "color": {
         "b": 0,
         "g": 0,
-        "r": 0
+        "r": 230
       }
     },
     {
@@ -190,6 +295,81 @@
       "name": "txtNameEntry",
       "tags": "",
       "type": "TextEntryObject::TextEntry",
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "name": "Meteorite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 0,
+          "OldForceAngle": 0,
+          "OldForceLength": 0,
+          "NormalAngle": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "Meteorite3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Meteorite3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "c20fe4657b50f46f901b666ddae13412211ef388c101136bacecd5bee34520b4",
+      "height": 128,
+      "name": "StarryBackgroundStars2",
+      "tags": "",
+      "texture": "tiled_Starry Background Stars 2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
+      "height": 128,
+      "name": "BlackSpace",
+      "tags": "",
+      "texture": "tiled_black space.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
       "variables": [],
       "effects": [],
       "behaviors": []
@@ -284,5 +464,10 @@
       "effects": []
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
+    }
+  ]
 }
