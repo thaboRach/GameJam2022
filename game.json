@@ -47,7 +47,13 @@
     "authorIds": [],
     "categories": [],
     "playableDevices": [],
-    "extensionProperties": [],
+    "extensionProperties": [
+      {
+        "extension": "Firebase",
+        "property": "FirebaseConfig",
+        "value": "{\n  \"apiKey\" : \"AIzaSyCVLwGc89BXW76DddeTVGgoILtB4w7WjVw\",\n  \"authDomain\": \"roguerockets-3409b.firebaseapp.com\",\n  \"projectId\": \"roguerockets-3409b\",\n  \"storageBucket\": \"roguerockets-3409b.appspot.com\",\n  \"messagingSenderId\": \"312716855873\",\n  \"appId\": \"1:312716855873:web:3db9f2efb01834f75e54c0\",\n  \"measurementId\": \"G-XS8Z2K515W\"\n}"
+      }
+    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -354,6 +360,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/main"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/leaderboard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/start"
     }
   ],
   "externalEvents": [],

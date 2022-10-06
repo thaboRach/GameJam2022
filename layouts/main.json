@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2899999999999998,
+    "zoomFactor": 0.6763045547254336,
     "windowMask": false
   },
   "objectsGroups": [
@@ -156,8 +156,8 @@
       "name": "podium",
       "persistentUuid": "af0bbcc8-c2a8-4fae-8f96-9951f33746df",
       "width": 41,
-      "x": 552,
-      "y": 50,
+      "x": 576,
+      "y": 84,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -624,6 +624,21 @@
       "x": 96.36363220214844,
       "y": -3360,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "txtGamerName",
+      "persistentUuid": "d9d55e38-5879-474a-b3d1-fb06f74a9634",
+      "width": 0,
+      "x": 32,
+      "y": 558,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1655,6 +1670,36 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "txtGamerName",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "PublicPixel-z84yD.ttf",
+      "characterSize": 20,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "txtEntry",
+      "tags": "",
+      "type": "TextEntryObject::TextEntry",
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -1708,6 +1753,16 @@
                 "RandomInRange(5, 500)",
                 "=",
                 "RandomInRange(4, 500)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtGamerName",
+                "=",
+                "GlobalVariableString(User.name)"
               ]
             }
           ]
@@ -2171,7 +2226,7 @@
               "parameters": [
                 "ROCKET_1",
                 "Health",
-                "1",
+                "4",
                 "",
                 "",
                 ""
@@ -2534,7 +2589,7 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Score",
+                "User.score",
                 "+",
                 "1"
               ]
@@ -2605,7 +2660,7 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Score",
+                "User.score",
                 "+",
                 "1"
               ]
@@ -2676,7 +2731,7 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Score",
+                "User.score",
                 "+",
                 "1"
               ]
@@ -2747,7 +2802,7 @@
                 "value": "ModVarScene"
               },
               "parameters": [
-                "Score",
+                "User.score",
                 "+",
                 "1"
               ]
@@ -2811,6 +2866,26 @@
             "Scrolling",
             "False"
           ]
+        },
+        {
+          "type": {
+            "value": "Firebase::FirestoreAddDocument"
+          },
+          "parameters": [
+            "\"Leaderboard\"",
+            "User",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"LeaderBoard\"",
+            ""
+          ]
         }
       ]
     },
@@ -2838,10 +2913,62 @@
           "parameters": [
             "GameScore",
             "=",
-            "VariableString(Score)"
+            "VariableString(User.score)"
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "User Name",
+      "comment2": ""
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarSceneTxt"
+          },
+          "parameters": [
+            "User.name",
+            "=",
+            "txtGamerName.String()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Leaderboard",
+      "comment2": ""
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
