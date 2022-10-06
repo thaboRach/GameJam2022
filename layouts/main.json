@@ -2200,6 +2200,51 @@
       ]
     },
     {
+      "additive": true,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": false,
+      "emitterAngleA": 0,
+      "emitterAngleB": 1,
+      "emitterForceMax": 250,
+      "emitterForceMin": 150,
+      "flow": 15,
+      "maxParticleNb": 300,
+      "name": "BasicSmoke",
+      "particleAlpha1": 150,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 20,
+      "particleBlue2": 63,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 20,
+      "particleGreen2": 63,
+      "particleLifeTimeMax": 1.5,
+      "particleLifeTimeMin": 0.5,
+      "particleRed1": 20,
+      "particleRed2": 63,
+      "particleSize1": 0,
+      "particleSize2": 70,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 50,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "assets\\ExplosionTexture-Smoke-1.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
       "assetStoreId": "",
       "name": "Bananna_Bullet",
       "tags": "",
@@ -2239,6 +2284,141 @@
           ]
         }
       ]
+    },
+    {
+      "additive": true,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 360,
+      "emitterForceMax": 0,
+      "emitterForceMin": 0,
+      "flow": 1000,
+      "maxParticleNb": 10000,
+      "name": "SparksPoint2",
+      "particleAlpha1": 255,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 40,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 122,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 6,
+      "particleLifeTimeMin": 5,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 8,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "assets\\Glow.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 90,
+      "emitterForceMax": 300,
+      "emitterForceMin": 100,
+      "flow": 60,
+      "maxParticleNb": 300,
+      "name": "Sparks",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 14,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 600,
+      "particleGreen1": 215,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 2,
+      "particleLifeTimeMin": 1,
+      "particleRed1": 255,
+      "particleRed2": 122,
+      "particleSize1": 100,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 6,
+      "rendererParam2": 2,
+      "rendererType": "Line",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 5,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "additive": true,
+      "assetStoreId": "",
+      "destroyWhenNoParticles": true,
+      "emitterAngleA": 0,
+      "emitterAngleB": 1,
+      "emitterForceMax": 90,
+      "emitterForceMin": 50,
+      "flow": 100,
+      "maxParticleNb": 300,
+      "name": "SparksPoint",
+      "particleAlpha1": 204,
+      "particleAlpha2": 0,
+      "particleAlphaRandomness1": 0,
+      "particleAlphaRandomness2": 0,
+      "particleAngle1": 0,
+      "particleAngle2": 0,
+      "particleAngleRandomness1": 0,
+      "particleAngleRandomness2": 0,
+      "particleBlue1": 40,
+      "particleBlue2": 0,
+      "particleGravityX": 0,
+      "particleGravityY": 0,
+      "particleGreen1": 122,
+      "particleGreen2": 0,
+      "particleLifeTimeMax": 1,
+      "particleLifeTimeMin": 0.20000000298023224,
+      "particleRed1": 255,
+      "particleRed2": 255,
+      "particleSize1": 20,
+      "particleSize2": 0,
+      "particleSizeRandomness1": 0,
+      "particleSizeRandomness2": 0,
+      "rendererParam1": 3,
+      "rendererParam2": 1,
+      "rendererType": "Quad",
+      "tags": "",
+      "tank": -1,
+      "textureParticleName": "assets\\Glow.png",
+      "type": "ParticleSystem::ParticleEmitter",
+      "zoneRadius": 3,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     },
     {
       "assetStoreId": "",
@@ -2568,8 +2748,32 @@
               },
               "parameters": [
                 "",
-                "Bullet",
-                "ROCKET_1.X() - 30",
+                "SparksPoint",
+                "ROCKET_1.X()",
+                "ROCKET_1.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "SparksPoint2",
+                "ROCKET_1.X()",
+                "ROCKET_1.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BasicSmoke",
+                "ROCKET_1.X()",
                 "ROCKET_1.Y()",
                 ""
               ]
@@ -2579,7 +2783,29 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "Bullet",
+                "SparksPoint",
+                "ROCKET_1.Angle() + 270",
+                "350",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "SparksPoint2",
+                "ROCKET_1.Angle() + 270",
+                "350",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "BasicSmoke",
                 "ROCKET_1.Angle() + 270",
                 "350",
                 "1"
@@ -2590,7 +2816,27 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "Bullet",
+                "SparksPoint",
+                "=",
+                "ROCKET_1.ZOrder() - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "SparksPoint2",
+                "=",
+                "ROCKET_1.ZOrder() - 1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "BasicSmoke",
                 "=",
                 "ROCKET_1.ZOrder() - 1"
               ]
