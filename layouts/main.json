@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.27,
+    "zoomFactor": 0.28378028639722574,
     "windowMask": false
   },
   "objectsGroups": [
@@ -55,6 +55,12 @@
       "name": "Scrolling",
       "type": "boolean",
       "value": true
+    },
+    {
+      "folded": true,
+      "name": "Win",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -66,7 +72,7 @@
       "name": "Space",
       "persistentUuid": "300a3ea7-1c61-4a53-959a-478964287fb5",
       "width": 800,
-      "x": 0,
+      "x": 4,
       "y": -3520,
       "zOrder": 1,
       "numberProperties": [],
@@ -156,8 +162,8 @@
       "name": "podium",
       "persistentUuid": "af0bbcc8-c2a8-4fae-8f96-9951f33746df",
       "width": 65,
-      "x": 439,
-      "y": 96,
+      "x": 446,
+      "y": 237,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -171,8 +177,8 @@
       "name": "Aws",
       "persistentUuid": "3d608d6d-dd69-423e-ba40-222e094c18c9",
       "width": 70,
-      "x": 480,
-      "y": 288,
+      "x": 599,
+      "y": -368,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -186,8 +192,8 @@
       "name": "podium2",
       "persistentUuid": "a8a3ae94-dbfa-41b7-adb4-2bf988507f25",
       "width": 65,
-      "x": 640,
-      "y": 416,
+      "x": 159,
+      "y": -251,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -201,8 +207,8 @@
       "name": "Collaboration_OR_Team_Work",
       "persistentUuid": "e26af9ac-dcd8-4c1a-a3c1-367204519f62",
       "width": 65,
-      "x": 278,
-      "y": 133,
+      "x": 141,
+      "y": 192,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -216,8 +222,8 @@
       "name": "TheHive",
       "persistentUuid": "f9c4dd94-ddd6-4aed-b493-44eeb734300d",
       "width": 65,
-      "x": 640,
-      "y": 223,
+      "x": 488,
+      "y": -144,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -241,11 +247,11 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 42,
+      "height": 102,
       "layer": "",
       "name": "GameOver",
       "persistentUuid": "f2006ea9-8e8d-4a33-904b-5812f6783cc7",
-      "width": 231,
+      "width": 337,
       "x": 192,
       "y": 288,
       "zOrder": 2,
@@ -822,6 +828,186 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "TheHive",
+      "persistentUuid": "49c1de15-db50-47f4-b669-7f6eed7db11a",
+      "width": 65,
+      "x": 402,
+      "y": -627,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium",
+      "persistentUuid": "fbaa7aaf-df90-44ab-861c-9c4b9a7717c1",
+      "width": 65,
+      "x": 308,
+      "y": -1579,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium2",
+      "persistentUuid": "51c26f80-df9e-48fe-a649-3e4cb933ddea",
+      "width": 65,
+      "x": 625,
+      "y": -1700,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "Aws",
+      "persistentUuid": "90beecc9-9b5e-43b3-ad22-ab0814af44be",
+      "width": 70,
+      "x": 343,
+      "y": -2549,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium",
+      "persistentUuid": "56e090e3-be76-49c3-8b9c-ba54d8bbfa59",
+      "width": 65,
+      "x": 582,
+      "y": -249,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium",
+      "persistentUuid": "871c8869-adbd-4086-b477-080821d0abec",
+      "width": 65,
+      "x": 353,
+      "y": -971,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "Aws",
+      "persistentUuid": "31d459e5-396d-40b7-9153-ac22a3bdff6c",
+      "width": 70,
+      "x": 603,
+      "y": -1965,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "Collaboration_OR_Team_Work",
+      "persistentUuid": "c1a0daa0-2221-4355-8d4b-f81fea9b4229",
+      "width": 65,
+      "x": 151,
+      "y": 202,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "Collaboration_OR_Team_Work",
+      "persistentUuid": "28276e04-9127-4b01-8f0a-262ff93ac4d3",
+      "width": 65,
+      "x": 580,
+      "y": -704,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium",
+      "persistentUuid": "38e3c481-6043-4512-b3ac-8207c0ece7d8",
+      "width": 65,
+      "x": 134,
+      "y": -1451,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "podium2",
+      "persistentUuid": "4f80cae8-044f-4002-b659-8d6fcea56071",
+      "width": 65,
+      "x": 589,
+      "y": -2802,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "TheHive",
+      "persistentUuid": "96e69d98-9b9c-4847-a4a1-e703d9e36511",
+      "width": 65,
+      "x": 177,
+      "y": -2308,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -913,15 +1099,16 @@
           "HealToBeApplied": 0
         },
         {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap",
-          "HorizontalWrapping": true,
-          "VerticalWrapping": true,
-          "BorderTop": 0,
-          "BorderLeft": 0,
-          "BorderRight": 0,
-          "BorderBottom": 0,
-          "TriggerOffset": 0
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement",
+          "HorizontalSpeed": 60,
+          "VerticalSpeed": 60,
+          "HorizontalDistance": 100,
+          "VerticalDistance": 0,
+          "CenterPointX": 0,
+          "CenterPointY": 0,
+          "SineProgressX": 0,
+          "SineProgressY": 0
         }
       ],
       "animations": [
@@ -1043,15 +1230,16 @@
           "HealToBeApplied": 0
         },
         {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap",
-          "HorizontalWrapping": true,
-          "VerticalWrapping": true,
-          "BorderTop": 0,
-          "BorderLeft": 0,
-          "BorderRight": 0,
-          "BorderBottom": 0,
-          "TriggerOffset": 0
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement",
+          "HorizontalSpeed": 60,
+          "VerticalSpeed": 60,
+          "HorizontalDistance": 100,
+          "VerticalDistance": 0,
+          "CenterPointX": 0,
+          "CenterPointY": 0,
+          "SineProgressX": 0,
+          "SineProgressY": 0
         }
       ],
       "animations": [
@@ -1157,15 +1345,16 @@
           "HealToBeApplied": 0
         },
         {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap",
-          "HorizontalWrapping": true,
-          "VerticalWrapping": true,
-          "BorderTop": 0,
-          "BorderLeft": 0,
-          "BorderRight": 0,
-          "BorderBottom": 0,
-          "TriggerOffset": 0
+          "name": "SineMovement",
+          "type": "SineMovement::SineMovement",
+          "HorizontalSpeed": 60,
+          "VerticalSpeed": 60,
+          "HorizontalDistance": 100,
+          "VerticalDistance": 0,
+          "CenterPointX": 0,
+          "CenterPointY": 0,
+          "SineProgressX": 0,
+          "SineProgressY": 0
         }
       ],
       "animations": [
@@ -1861,7 +2050,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "GameOver",
       "smoothed": true,
@@ -1885,9 +2074,9 @@
         }
       ],
       "behaviors": [],
-      "string": "GAME OVER",
+      "string": "YOU WIN",
       "font": "",
-      "characterSize": 38,
+      "characterSize": 70,
       "color": {
         "b": 255,
         "g": 255,
@@ -2130,7 +2319,7 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 10,
+          "Health": 1,
           "CurrentHealth": 0,
           "MaxHealth": 10,
           "DamageCooldown": 0,
@@ -2451,7 +2640,7 @@
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "Meteorite4.png",
                   "points": [],
                   "originPoint": {
@@ -2465,7 +2654,46 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 486.7924499511719,
+                        "y": 39.52437210083008
+                      },
+                      {
+                        "x": 616.3521728515625,
+                        "y": 96.12814331054688
+                      },
+                      {
+                        "x": 616.3521728515625,
+                        "y": 309.9646301269531
+                      },
+                      {
+                        "x": 506.9182434082031,
+                        "y": 465.939453125
+                      },
+                      {
+                        "x": 213.8364715576172,
+                        "y": 526.3168334960938
+                      },
+                      {
+                        "x": 106.9182357788086,
+                        "y": 418.1407165527344
+                      },
+                      {
+                        "x": 79.24528503417969,
+                        "y": 311.22247314453125
+                      },
+                      {
+                        "x": 145.91195678710938,
+                        "y": 169.08412170410156
+                      },
+                      {
+                        "x": 232.70440673828125,
+                        "y": 79.77593994140625
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -2611,69 +2839,6 @@
                 "value": "AddForceAL"
               },
               "parameters": [
-                "podium",
-                "120",
-                "75",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "podium",
-                "15",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "Aws",
-                "240",
-                "75",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "Aws",
-                "15",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "podium2",
-                "210",
-                "75",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Rotate"
-              },
-              "parameters": [
-                "podium",
-                "15",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceAL"
-              },
-              "parameters": [
                 "TheHive",
                 "210",
                 "75",
@@ -2691,11 +2856,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "parameters": []
@@ -3139,8 +3299,8 @@
               "parameters": [
                 "",
                 "BasicExplosionEnergy",
-                "podium2.X()",
-                "podium2.Y()",
+                "TheHive.X()",
+                "TheHive.X()",
                 ""
               ]
             },
@@ -3199,6 +3359,57 @@
               },
               "parameters": [
                 "ROCKET_1",
+                "Meteorite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "1",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::Width"
+              },
+              "parameters": [
+                "HealthBar",
+                "=",
+                "ROCKET_1.Health::Health()*61"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Meteorite",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "ROCKET_1",
                 "Collaboration_OR_Team_Work",
                 "",
                 "",
@@ -3227,6 +3438,35 @@
                 "User.score",
                 "+",
                 "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Meteorite collision",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "ROCKET_1",
+                "Meteorite",
+                ""
               ]
             }
           ]
@@ -4141,6 +4381,15 @@
                     "+",
                     "20"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Win",
+                    "True"
+                  ]
                 }
               ]
             }
@@ -4158,74 +4407,183 @@
       "name": "Interface(UI)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
-      "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "events": [
         {
-          "type": {
-            "value": "SceneVariableAsBoolean"
-          },
-          "parameters": [
-            "GameOver",
-            "True"
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "GameOver",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Scrolling",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "Firebase::FirestoreAddDocument"
+              },
+              "parameters": [
+                "\"Leaderboard\"",
+                "User",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"LeaderBoard\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Win",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GameOver",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "GameOver",
+                "=",
+                "CameraCenterX()",
+                "=",
+                "CameraCenterY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "camera",
+                "=",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::YOffset"
+              },
+              "parameters": [
+                "Space",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "HealthBar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "ROCKET_1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Space"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "GameScore"
+              ]
+            },
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Collaboration_OR_Team_Work"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "podium",
+                "SineMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Aws",
+                "SineMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "podium2",
+                "SineMovement",
+                ""
+              ]
+            }
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "Montre"
-          },
-          "parameters": [
-            "GameOver",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "GameOver",
-            "=",
-            "CameraCenterX()",
-            "=",
-            "CameraCenterY()"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetSceneVariableAsBoolean"
-          },
-          "parameters": [
-            "Scrolling",
-            "False"
-          ]
-        },
-        {
-          "type": {
-            "value": "Firebase::FirestoreAddDocument"
-          },
-          "parameters": [
-            "\"Leaderboard\"",
-            "User",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Scene"
-          },
-          "parameters": [
-            "",
-            "\"LeaderBoard\"",
-            ""
-          ]
-        }
-      ]
+      "parameters": []
     },
     {
       "type": "BuiltinCommonInstructions::Comment",
@@ -4436,8 +4794,8 @@
       "type": "Health::Health"
     },
     {
-      "name": "ScreenWrap",
-      "type": "ScreenWrap::ScreenWrap"
+      "name": "SineMovement",
+      "type": "SineMovement::SineMovement"
     },
     {
       "name": "StayOnScreen",
