@@ -276,8 +276,8 @@
       "name": "Black_hole",
       "persistentUuid": "8dabc721-f797-4451-b045-a5218731d3ff",
       "width": 412,
-      "x": 32,
-      "y": -512,
+      "x": 165.29200744628906,
+      "y": -524.0990600585938,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -1483,9 +1483,9 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 5,
+          "Health": 3,
           "CurrentHealth": 0,
-          "MaxHealth": 5,
+          "MaxHealth": 3,
           "DamageCooldown": 0,
           "IsHealthJustDamaged": false,
           "HealthRegenRate": 0,
@@ -1509,18 +1509,12 @@
           "HealToBeApplied": 0
         },
         {
-          "name": "LinearMovement",
-          "type": "LinearMovement::LinearMovement",
-          "SpeedX": 0,
-          "SpeedY": -50
-        },
-        {
           "name": "StayOnScreen",
           "type": "StayOnScreen::StayOnScreen",
           "MarginTop": 0,
           "MarginBottom": 0,
-          "MarginLeft": 20,
-          "MarginRight": 20
+          "MarginLeft": 5,
+          "MarginRight": 5
         },
         {
           "name": "TopDownMovement",
@@ -1557,10 +1551,10 @@
                     "y": 110.30323791503906
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 403.09747314453125,
+                    "y": 236.43374633789062
                   },
                   "customCollisionMask": [
                     [
@@ -1959,14 +1953,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 267.28302001953125,
+                    "y": 182.2876434326172
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 267.28302001953125,
+                    "y": 177.33795166015625
                   },
                   "customCollisionMask": [
                     [
@@ -2031,14 +2025,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 267.28302001953125,
+                    "y": 182.2876434326172
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 267.28302001953125,
+                    "y": 177.33795166015625
                   },
                   "customCollisionMask": [
                     [
@@ -3030,6 +3024,14 @@
           "actions": [
             {
               "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "ROCKET_1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Rotate"
               },
               "parameters": [
@@ -3045,7 +3047,7 @@
               "parameters": [
                 "ROCKET_1",
                 "-",
-                "0.2* TimeDelta()"
+                "0.1* TimeDelta()"
               ]
             },
             {
@@ -3055,15 +3057,42 @@
               "parameters": [
                 "ROCKET_1",
                 "-",
-                "0.2*TimeDelta()"
+                "0.1*TimeDelta()"
               ]
             },
             {
               "type": {
-                "value": "Arreter"
+                "value": "AddForceVersPos"
               },
               "parameters": [
-                "ROCKET_1"
+                "ROCKET_1",
+                "Black_hole.CenterX()",
+                "Black_hole.CenterY()",
+                "100",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::Hit"
+              },
+              "parameters": [
+                "ROCKET_1",
+                "Health",
+                "0.8*TimeDelta()",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ROCKET_1",
+                "TopDownMovement",
+                ""
               ]
             }
           ]
@@ -3102,7 +3131,7 @@
               "parameters": [
                 "camera",
                 "-",
-                "20*TimeDelta()",
+                "80*TimeDelta()",
                 "",
                 ""
               ]
@@ -3114,7 +3143,7 @@
               "parameters": [
                 "Space",
                 "-",
-                "10*TimeDelta()"
+                "80*TimeDelta()"
               ]
             },
             {
@@ -3124,7 +3153,7 @@
               "parameters": [
                 "ROCKET_1",
                 "0",
-                "-20",
+                "-80",
                 ""
               ]
             },
@@ -3135,7 +3164,7 @@
               "parameters": [
                 "HealthBar",
                 "0",
-                "-20",
+                "-80",
                 ""
               ]
             },
@@ -3146,7 +3175,7 @@
               "parameters": [
                 "GameScore",
                 "0",
-                "-20",
+                "-80",
                 ""
               ]
             },
@@ -3157,7 +3186,7 @@
               "parameters": [
                 "Collaboration_OR_Team_Work",
                 "0",
-                "-20",
+                "-50",
                 ""
               ]
             }
