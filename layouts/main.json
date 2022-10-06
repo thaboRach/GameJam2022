@@ -3495,7 +3495,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
                     "podium2",
                     "",
                     "",
@@ -3522,7 +3522,25 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
                     ""
                   ]
                 },
@@ -3546,7 +3564,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
                     "podium",
                     "",
                     "",
@@ -3573,7 +3591,25 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
                     ""
                   ]
                 },
@@ -3597,7 +3633,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
                     "Aws",
                     "",
                     "",
@@ -3624,7 +3660,25 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
                     ""
                   ]
                 },
@@ -3648,7 +3702,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
                     "TheHive",
                     "",
                     "",
@@ -3675,7 +3729,25 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
                     ""
                   ]
                 },
@@ -3699,7 +3771,7 @@
                     "value": "CollisionNP"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
                     "DRONE",
                     "",
                     "",
@@ -3726,7 +3798,25 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Bullet",
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
                     ""
                   ]
                 },
