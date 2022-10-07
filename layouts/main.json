@@ -4907,31 +4907,22 @@
             },
             {
               "type": {
-                "value": "ResetTimer"
+                "value": "Wait"
               },
               "parameters": [
-                "",
-                "\"Pause\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Pause\"",
-                ">",
                 "5"
               ]
-            }
-          ],
-          "actions": [
+            },
+            {
+              "type": {
+                "value": "Firebase::FirestoreAddDocument"
+              },
+              "parameters": [
+                "\"Leaderboard\"",
+                "User",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -4943,6 +4934,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
