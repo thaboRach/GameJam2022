@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.2637802863972257,
+    "zoomFactor": 0.4837802863972258,
     "windowMask": false
   },
   "objectsGroups": [
@@ -61,6 +61,12 @@
       "name": "Win",
       "type": "boolean",
       "value": false
+    },
+    {
+      "folded": true,
+      "name": "ScrollSpeed",
+      "type": "number",
+      "value": 150
     }
   ],
   "instances": [
@@ -149,21 +155,6 @@
       "width": 200,
       "x": 414.0338439941406,
       "y": 449.35845947265625,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 65,
-      "layer": "",
-      "name": "podium",
-      "persistentUuid": "af0bbcc8-c2a8-4fae-8f96-9951f33746df",
-      "width": 65,
-      "x": 446,
-      "y": 237,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -522,8 +513,8 @@
       "name": "Black_hole",
       "persistentUuid": "f85918da-dbb6-42bc-8dcd-801894a617cf",
       "width": 412,
-      "x": 378,
-      "y": -2028,
+      "x": 495.2919921875,
+      "y": -2049.09912109375,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -640,21 +631,6 @@
       "height": 0,
       "layer": "",
       "name": "Stars1",
-      "persistentUuid": "6f2f901a-e999-4501-a873-55285f618bbc",
-      "width": 0,
-      "x": 256,
-      "y": -192,
-      "zOrder": 17,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Stars1",
       "persistentUuid": "a434b43a-44d8-40c2-a693-0f285b463885",
       "width": 0,
       "x": 800,
@@ -687,8 +663,8 @@
       "name": "DRONE",
       "persistentUuid": "ec16c786-b08b-41da-b1cc-3faaae23894f",
       "width": 282,
-      "x": 79.84635925292969,
-      "y": -3475.035888671875,
+      "x": 140.8463592529297,
+      "y": -3404.035888671875,
       "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
@@ -822,8 +798,8 @@
       "name": "Black_hole",
       "persistentUuid": "24458479-95f7-4d41-a112-1b7ab32e9b06",
       "width": 412,
-      "x": 4,
-      "y": -2776,
+      "x": 109.29199981689453,
+      "y": -2798.09912109375,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -852,23 +828,8 @@
       "name": "podium",
       "persistentUuid": "fbaa7aaf-df90-44ab-861c-9c4b9a7717c1",
       "width": 65,
-      "x": 308,
-      "y": -1579,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 65,
-      "layer": "",
-      "name": "podium2",
-      "persistentUuid": "51c26f80-df9e-48fe-a649-3e4cb933ddea",
-      "width": 65,
-      "x": 625,
-      "y": -1700,
+      "x": 468,
+      "y": -1737,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -927,8 +888,8 @@
       "name": "Aws",
       "persistentUuid": "31d459e5-396d-40b7-9153-ac22a3bdff6c",
       "width": 70,
-      "x": 603,
-      "y": -1965,
+      "x": 634,
+      "y": -1837,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -942,8 +903,8 @@
       "name": "Collaboration_OR_Team_Work",
       "persistentUuid": "c1a0daa0-2221-4355-8d4b-f81fea9b4229",
       "width": 65,
-      "x": 151,
-      "y": 202,
+      "x": 497,
+      "y": -1247,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -959,21 +920,6 @@
       "width": 65,
       "x": 580,
       "y": -704,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "height": 65,
-      "layer": "",
-      "name": "podium",
-      "persistentUuid": "38e3c481-6043-4512-b3ac-8207c0ece7d8",
-      "width": 65,
-      "x": 134,
-      "y": -1451,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -1004,6 +950,21 @@
       "width": 65,
       "x": 177,
       "y": -2308,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 65,
+      "layer": "",
+      "name": "TheHive",
+      "persistentUuid": "5bc452c0-fb40-4696-b6d4-394375011df1",
+      "width": 65,
+      "x": 90,
+      "y": -1465,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -1104,7 +1065,7 @@
           "HorizontalSpeed": 60,
           "VerticalSpeed": 60,
           "HorizontalDistance": 100,
-          "VerticalDistance": 0,
+          "VerticalDistance": 40,
           "CenterPointX": 0,
           "CenterPointY": 0,
           "SineProgressX": 0,
@@ -2317,6 +2278,17 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.2,
+          "HasJustFired": false,
+          "FiringArc": 0,
+          "AngleVariance": 0,
+          "BulletQuantity": 1,
+          "RotateBullet": true,
+          "CurrentBulletAngle": 0
+        },
+        {
           "name": "Health",
           "type": "Health::Health",
           "Health": 20,
@@ -2366,21 +2338,54 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "noun-drone-12014543-1.png",
-                  "points": [],
+                  "points": [
+                    {
+                      "name": "Bullets",
+                      "x": 343.396240234375,
+                      "y": 353.1446533203125
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 344.6540832519531,
                     "y": 251.2578582763672
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 342.13836669921875,
+                    "y": 251.2578582763672
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 349.685546875,
+                        "y": 116.66666412353516
+                      },
+                      {
+                        "x": 527.0440063476562,
+                        "y": 120.44025421142578
+                      },
+                      {
+                        "x": 509.4339599609375,
+                        "y": 441.1949768066406
+                      },
+                      {
+                        "x": 250.31446838378906,
+                        "y": 438.67926025390625
+                      },
+                      {
+                        "x": 173.58489990234375,
+                        "y": 311.6352233886719
+                      },
+                      {
+                        "x": 168.55345153808594,
+                        "y": 163.20755004882812
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -3084,11 +3089,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -3589,6 +3589,16 @@
           "actions": [
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "ROCKET_1",
+                "TopDownMovement",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "Arreter"
               },
               "parameters": [
@@ -3601,7 +3611,7 @@
               },
               "parameters": [
                 "ROCKET_1",
-                "65",
+                "120",
                 ""
               ]
             },
@@ -3612,7 +3622,7 @@
               "parameters": [
                 "ROCKET_1",
                 "-",
-                "0.1* TimeDelta()"
+                "0.2* TimeDelta()"
               ]
             },
             {
@@ -3622,7 +3632,7 @@
               "parameters": [
                 "ROCKET_1",
                 "-",
-                "0.1*TimeDelta()"
+                "0.2*TimeDelta()"
               ]
             },
             {
@@ -3633,7 +3643,7 @@
                 "ROCKET_1",
                 "Black_hole.CenterX()",
                 "Black_hole.CenterY()",
-                "100",
+                "200",
                 ""
               ]
             },
@@ -3647,16 +3657,6 @@
                 "0.8*TimeDelta()",
                 "",
                 "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "ROCKET_1",
-                "TopDownMovement",
                 ""
               ]
             }
@@ -3696,7 +3696,7 @@
               "parameters": [
                 "camera",
                 "-",
-                "80*TimeDelta()",
+                "Variable(ScrollSpeed)*TimeDelta()",
                 "",
                 ""
               ]
@@ -3708,7 +3708,7 @@
               "parameters": [
                 "Space",
                 "-",
-                "80*TimeDelta()"
+                "Variable(ScrollSpeed)*TimeDelta()"
               ]
             },
             {
@@ -3718,7 +3718,7 @@
               "parameters": [
                 "ROCKET_1",
                 "0",
-                "-80",
+                "-Variable(ScrollSpeed)",
                 ""
               ]
             },
@@ -3729,7 +3729,7 @@
               "parameters": [
                 "HealthBar",
                 "0",
-                "-80",
+                "-Variable(ScrollSpeed)",
                 ""
               ]
             },
@@ -3740,7 +3740,7 @@
               "parameters": [
                 "GameScore",
                 "0",
-                "-80",
+                "-Variable(ScrollSpeed)",
                 ""
               ]
             },
@@ -3769,6 +3769,175 @@
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "At the beginning, make all enemies inactive",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "podium",
+                "SineMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "podium2",
+                "SineMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Aws",
+                "SineMovement",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Meteorite",
+                "TimedBackAndForthMirroredMovement",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Check if objects are entering the screen",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "podium",
+                "<",
+                "CameraCenterY()+ CameraHeight()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "podium2",
+                "<",
+                "CameraCenterY()+ CameraHeight()/2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Aws",
+                "<",
+                "CameraCenterY()+ CameraHeight()/2"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Activate Objects",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "podium",
+                    "SineMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "podium2",
+                    "SineMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Aws",
+                    "SineMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Meteorite",
+                    "TimedBackAndForthMirroredMovement",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
         {
           "colorB": 228,
           "colorG": 176,
@@ -4119,6 +4288,111 @@
                     "User.score",
                     "+",
                     "3"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Remove Bullet if its in collision with the Blackhole or the Meteorites",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SparksPoint2",
+                    "Meteorite",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "SparksPoint2",
+                    "Black_hole",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "SparksPoint",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BasicSmoke",
+                    ""
                   ]
                 }
               ]
@@ -4669,181 +4943,185 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Score",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "GameScore",
+                "=",
+                "VariableString(User.score)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Username",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "User.name",
+                "=",
+                "txtGamerName.String()"
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Score",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "GameScore",
-            "=",
-            "VariableString(User.score)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "Username",
-      "comment2": ""
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarSceneTxt"
-          },
-          "parameters": [
-            "User.name",
-            "=",
-            "txtGamerName.String()"
-          ]
-        }
-      ]
     },
     {
       "colorB": 228,
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Enemy",
+      "name": "Boss",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Check if boss is in screen",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "ROCKET_1",
+                "DRONE",
+                "420",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetSceneVariableAsBoolean"
+              },
+              "parameters": [
+                "Scrolling",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "DRONE.CenterY()+ 200",
+                "",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"BulletTimer\"",
+                    ">",
+                    "1.7"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Bananna_Bullet",
+                    "=",
+                    "DRONE.ZOrder() -1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FireBullet::FireBullet::Fire"
+                  },
+                  "parameters": [
+                    "DRONE",
+                    "FireBullet",
+                    "DRONE.PointX(\"Bullets\")",
+                    "DRONE.PointY(\"Bullets\")",
+                    "Bananna_Bullet",
+                    "90",
+                    "150",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"BulletTimer\""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"BulletTimer\"",
-            ">",
-            "1.7"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "Bananna_Bullet",
-            "DRONE.X()",
-            "DRONE.Y()",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "AddForceAL"
-          },
-          "parameters": [
-            "Bananna_Bullet",
-            "DRONE.Angle() + 90",
-            "300",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangePlan"
-          },
-          "parameters": [
-            "Bananna_Bullet",
-            "=",
-            "DRONE.ZOrder() -1"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"BulletTimer\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "inverted": true,
-            "value": "Distance"
-          },
-          "parameters": [
-            "Bananna_Bullet",
-            "DRONE",
-            "600",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Bananna_Bullet",
-            ""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -4882,6 +5160,10 @@
     }
   ],
   "behaviorsSharedData": [
+    {
+      "name": "FireBullet",
+      "type": "FireBullet::FireBullet"
+    },
     {
       "name": "Health",
       "type": "Health::Health"
