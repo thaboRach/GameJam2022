@@ -51,7 +51,7 @@
       {
         "extension": "Firebase",
         "property": "FirebaseConfig",
-        "value": "{\n  \"apiKey\" : \"AIzaSyCVLwGc89BXW76DddeTVGgoILtB4w7WjVw\",\n  \"authDomain\": \"roguerockets-3409b.firebaseapp.com\",\n  \"projectId\": \"roguerockets-3409b\",\n  \"storageBucket\": \"roguerockets-3409b.appspot.com\",\n  \"messagingSenderId\": \"312716855873\",\n  \"appId\": \"1:312716855873:web:3db9f2efb01834f75e54c0\",\n  \"measurementId\": \"G-XS8Z2K515W\"\n}"
+        "value": "{\n  \"apiKey\": \"AIzaSyCx8ZrWaLaKRugFXvs7sPetyTMHQTeO2fs\",\n  \"authDomain\": \"roguerockets-a0b22.firebaseapp.com\",\n  \"projectId\": \"roguerockets-a0b22\",\n  \"storageBucket\": \"roguerockets-a0b22.appspot.com\",\n  \"messagingSenderId\": \"293717993899\",\n  \"appId\": \"1:293717993899:web:5d1dbb02e3fed483da8aee\",\n  \"measurementId\": \"G-GKV0956VK6\"\n}"
       }
     ],
     "platforms": [
